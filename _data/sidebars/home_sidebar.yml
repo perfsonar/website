@@ -80,6 +80,9 @@ entries:
       - title: History
         url: /about_history.html
         output: web
+      - title: News
+        url: /news.html
+        output: web
       - title: Development Collaboration
         url: /about_collaboration.html
         output: web
