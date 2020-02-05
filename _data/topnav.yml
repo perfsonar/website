@@ -1,0 +1,39 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+
+topnav:
+- title: Topnav
+  items:
+    - title: Theme Docs
+      external_url: https://idratherbewriting.com/documentation-theme-jekyll/index.html
+    - title: What's New?
+      url: /news.html
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Get perfSONAR
+      folderitems:
+        - title: CentOS
+          url: get/centos
+        - title: Debian
+          url: get/debian
+        - title: Source Code
+          external_url: https://github.com/perfsonar
+
+    - title: Resources
+      folderitems:
+        - title: Documentation
+          external_url: https://docs.perfsonar.net
+        - title: Glossary
+          url: glossary
+
+        - title: YouTube Channel
+          external_url: https://www.youtube.com/channel/UCjK-P49pAKK9hUrrNbbe0Sg
+        - title: Mailing List - Announcements
+          external_url: https://lists.internet2.edu/sympa/info/perfsonar-announce
+        - title: Mailing List - User Discussion
+          external_url: https://lists.internet2.edu/sympa/info/perfsonar-user
+        - title: ESNet FasterData
+          external_url: http://fasterdata.es.net/performance-testing/perfsonar

@@ -1,0 +1,43 @@
+---
+title: History
+keywords: info history
+toc: false
+permalink: about_history.html
+folder: about
+sidebar: home_sidebar
+comments: false
+---
+
+[//]: This page is generated from data in _data/history.yml.
+
+
+{% assign last_year = "" %}
+{% capture now %}{{ "now" | date: '%s' }}{% endcapture %}
+
+{% for item in site.data.history %}
+
+  {% capture epoch %}{{ item.date | date: '%s' }}{% endcapture %}
+  {% capture year %}{{ item.date | date: '%Y' }}{% endcapture %}
+  {% capture month %}{{ item.date | date: '%m' }}{% endcapture %}
+  {% capture day %}{{ item.date | date: '%d' }}{% endcapture %}
+
+  {% if now > epoch %}
+
+    {% if year != last_year %}
+## {{ year }}
+      {% assign last_year = year %}
+    {% endif %}
+
+    {% if month == "01" and day == "01" %}
+      {% assign date_format = "" %}
+    {% else %}
+      {% if month != "01" and day == "01" %}
+        {% capture date_format = "" %}**{{item.date | date: '%B' }}** - {% endcapture %}
+      {% else %}
+        {% capture date_format = "" %}**{{item.date | date: '%B %-d' }}** - {% endcapture %}
+      {% endif %}
+    {% endif %}
+ * {{ date_format }}{{ item.text }}
+  {% endif %}
+
+{% endfor %}

@@ -1,0 +1,97 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+  - title: Sidebar
+    levels: two
+    folders:
+
+    - title: Get to Know perfSONAR
+      output: web
+      folderitems:
+
+      - title: perfSONAR Home
+        url: /index.html
+        output: web
+      - title: What is it?
+        url: /gtk_whatis.html
+        output: web
+      - title: Who Uses it? (X)
+        url: /gtk_whouses.html
+        output: web
+      - title: How Does it Work? (X)
+        url: /gtk_howworks.html
+        output: web
+      - title: Why Use it? (X)
+        url: /gtk_whyuse.html
+        output: web
+      - title: Who Runs it? (X)
+        url: /gtk_whoruns.html
+        output: web
+
+    - title: Deployment
+      output: web
+      folderitems:
+
+      - title: Downloading (X)
+        url: /deploy_downloading.html
+        output: web
+      - title: Node Placement (X)
+        url: /deploy_placement.html
+        output: web
+      - title: Monitoring Architecture (X)
+        url: /deploy_architecture.html
+        output: web
+      - title: Security (X)
+        url: /deploy_security.html
+        output: web
+
+
+    - title: Documentation
+      output: web
+      folderitems:
+
+      - title: Nothing Here
+        url: /nothing.html
+        output: web
+      - title: More Nothing
+        url: /nothing.html
+        output: web
+
+    - title: Resources
+      output: web
+      folderitems:
+
+      - title: Lookup Service
+        external_url: http://stats.es.net/ServicesDirectory/
+        output: web
+
+      - title: ESnet FasterData
+        external_url: http://fasterdata.es.net/performance-testing/perfsonar
+        output: web
+
+      - title: GitHub
+        external_url: https://github.com/perfsonar
+        output: web
+
+    - title: About
+      output: web
+      folderitems:
+
+      - title: History
+        url: /about_history.html
+        output: web
+      - title: Development Collaboration
+        url: /about_collaboration.html
+        output: web
+      - title: Licenses
+        url: /about_license.html
+        output: web
+      - title: Logo and Usage (X)
+        url: /about_logo.html
+        output: web
+      - title: Privacy Policy
+        url: /about_privacy.html
+        output: web
+      - title: Contact Us
+        url: /about_contact.html
+        output: web

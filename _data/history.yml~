@@ -1,0 +1,63 @@
+
+2019-08-19: perfSONAR 4.2 release. Disk-to-disk tests and task priorities added. End of BWCTL backward compatibility in pScheduler.
+
+2019-02-25: 2019 perfSONAR 4.1.6 release.
+
+2017-11-28: perfSONAR 4.0.2 release.
+
+2018-08-15: perfSONAR 4.0.1 release.
+    April 17, 2017 perfSONAR 4.0 release. pScheduler added. CentOS7 support. OWAMP MP and BWCTL MP depreciated.
+    October 2016 University of Michigan joins the project
+    March 3, 2016 perfSONAR 3.5.1 release
+    September 28, 2015 perfSONAR 3.5 release. New Toolkit Web Interface. Debian support.
+    April 21, 2015 perfsonarUI 1.5 release
+    March 24, 2015 perfSONAR 3.4.2 release
+    February 19, 2015 MaDDash 1.2 release
+    October 27, 2014 perfSONAR 3.4.1 release
+    October 7, 2014 perfSONAR 3.4 release. Fullinstall option. LiveCD/LiveUSB dropped. First steps toward unifying the projects into one development effort with the inclusion of the OWAMP MP and BWCTL MP added from MDM.
+    February 3, 2014 pS-Performance Toolkit 3.3.2 release
+    February 19, 2014 perfSONAR-PS/MDM convergence initiated during perfSONAR Workshopn in Arlington, VA. Fosters collaboration of ESnet, GÉANT, Indiana University and Internet2
+    December 10, 2013 first 1000 instances of perfSONAR-PS Toolkit deployment
+    June 13, 2013 pS-Performance Toolkit 3.3 release. CentOS6 support. Live USB option.
+    June 7, 2012 perfsonarUI Web 1.0 released
+    April 20, 2012 pS-Performance Toolkit 3.2.2 release
+    October 17, 2011 pS-Performance Toolkit 3.2.1 release
+    December 3, 2010 perfSONAR MDM 3.3 release
+    October 22, 2010 pS-Performance Toolkit 3.2 release. Netinstall and LiveCD options. CentOS5.5 support.
+    April 22, 2010 pS-Performance Toolkit 3.1.3 release
+    February 18, 2010 pS-Performance Toolkit 3.1.2 release
+    November 6, 2009 pS-Performance Toolkit 3.1.1 release
+    September 26, 2009 pS-Performance Toolkit 3.1 release
+    August 13, 2009 perfSONAR MDM bundle 3.2 release
+    July 2009 NML-WG first draft schema
+    May 27, 2009 first NMC-WG GGF document on schema for protocols to control of network measurement  (paper "An Extensible Protocol for Network Measurement and Control DRAFT")
+    January 23, 2009 perfSONAR MDM bundle 3.1 release
+    October 2, 2008 pS-NPToolkit 2.0 release
+    August 13, 2008 NPToolkit 1.1 release
+    June 2008 NPToolkit 1.0/Knoppix Live CD. perfSONAR-PS services (BWCTL and OWAMP) + NPAD and NDT
+    April 15, 2008 NPtoolkit 0.09 release
+    May 7, 2008 perfSONAR MDM 3.0 release. Linux distributions (RPMs and Debian packages) for all software. Developed by GÉANT2 project partners, RNP, Internet2
+    June 2, 2008 formation of NMC-WG at OGF23 during BOF at OGF23, Barcelona, Spain. NMC-WG Network Measurement Control defines protocols for generation and fetching of network measurements (perfSONAR)
+    December 17, 2007 perfSONAR bundle 2.2 release
+    August 22, 2007 perfSONAR bundle 2.1 release
+    May 25, 2007 perfSONAR bundle 2.0 release (rrd ma, sql ma, ls, ssh/telnet mp, clmp, bwctl mp) in Java and Perl
+    May 2007 perfSONAR NM-WG v2.0 schema published
+    Fabruary 1, 2007 formation of OGF NML-WG group at OGF19. NML-WG Network Markup Language decsribes network topologies
+    January 26, 2007 perfsonarUI 0.09 release as Java Web Start
+    July 18, 2006 perfSONAR 1.0 release. Included Java RRD MA and Java LS. Delivered by Internet2, ESnet, GEANT, RNP.
+    January 8, 2006 perfsonarUI 0.02 release
+    June 6, 2005 Joint GÉANT and Internet2 paper "Towards Multi–Domain Monitoring for the European Research Networks" presented at TNC2005 conference, Poznań, Poland
+    April 2005 system gots its name perfSONAR
+    January 2005 joint prototype development starts. ESnet and RNP joins collaboration.
+    September 22, 2004 EU-US meeting at GGF12, Brussels, Belgium
+    September 2004 GÉANT2/JRA1 Performance Monitoring General Framework Design starts
+    July 2004 GÉANT2 JRA1 collaborates with internet2 E2Epi End-2-End performance initiative. Meeting of leaders.
+    June 10, 2004 EU-US meeting about performance initiative with Internet2 during TNC2004 conference, Rhodes, Greece
+    March 17, 2004 Transatlantic Performance Monitoring Workshop in Geneva - starts collaboration at the meeting of Internet2, DANTE, CANARIE to work on joint architecture, development and tools deployement
+    November 15, 2003 Internet2 End-to-End Performance Initiative Performance Environment System (E2E piPES) demonstarted at SC03, Phoenix, AZ.
+    March 19, 2003 first NM-WG GGF document on schema for measurements (paper "A Hierarchy of Network Performance Characteristics for Grid Applications and Services")
+    October 18, 2002 First programme of the European PERT (Performance Enhancement and Response Team) at TF-NGN9 Meeting, Budapest, Hungary
+    July 2002 paper "E2E piPEline: End-to-End Performance Initiative Performance Environment System Architecture" published
+    2002 Internet2 Performance Evaluation and Review Framework (PERF) established
+    July 2001 formation of OGF NM-WG group at GGF during BOF at GGF2, Vienna, VA. NM-WG Network Measurement decribes network characteristics and metrics.
+    February 2001 End-to-End Performance Initiative vision paper published
