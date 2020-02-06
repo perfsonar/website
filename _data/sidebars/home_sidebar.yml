@@ -131,3 +131,7 @@ entries:
       - title: GitHub Pages Version
         external_url: https://mfeit-internet2.github.io/jekyll-test
         output: web
+
+      - title: Scratch Page
+        url: scratch.html
+        output: web
