@@ -4,7 +4,7 @@ keywords: about
 #tags: []
 sidebar: home_sidebar
 permalink: gtk_whatis.html
-toc: true
+toc: false
 ---
 
 ## Introduction

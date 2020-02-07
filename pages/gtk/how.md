@@ -17,7 +17,7 @@ large campuses routinely follow this deployment pattern as a service
 to their customers.  End sites can then create dashboard applications,
 and incorporate the downstream node into their test sets.
 
-![](images/gtk/how/how1.png)
+{% include image.html file="gtk/how/how1.png" %}
 
 
 perfSONAR functions as a “measurement island” in the default case, and
@@ -27,7 +27,7 @@ nodes in other domains is a trivial exercise done with a few clicks.
 Once configured, built-in graphs are available to show performance
 over time.
 
-![](images/gtk/how/how2.png)
+{% include image.html file="gtk/how/how2.png" %}
 
 
 perfSONAR can be used to create a grouping of tests, more commonly
@@ -41,4 +41,4 @@ performance characteristics between points of presence, as well as by
 virtual organizations to understand performance between participating
 locations.
 
-![](images/gtk/how/how3.png)
+{% include image.html file="gtk/how/how3.png" %}
