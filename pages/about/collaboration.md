@@ -87,7 +87,7 @@ four organizations:
  * [The University of Michigan](https://www.umich.edu) (2016)
 
 
-## Contributors
+## Contributing Organizations
 
 The following organizations have contributed code or other resources
 to the project:

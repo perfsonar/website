@@ -9,10 +9,12 @@ toc: false
 comments: false
 ---
 
-{% include important.html content="This is a development test for a potential replacement for the perfSONAR web site.  It is not the official site, so please take anything you see here with a grain of salt." %}
+<p align="center"><img src="images/logos/perfsonar.svg"/></p>
 
+{% include important.html content="This is a development test for a potential replacement for the perfSONAR web site.  It is not the official site, so please take anything you see here with a grain of salt." %}
 {% include note.html content="Items in the sidebar marked (X) do not exist yet." %}
 {% include note.html content="Search doesn't work yet." %}
+
 
 ## Here's a short summary.
 

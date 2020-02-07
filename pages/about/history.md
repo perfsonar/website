@@ -205,7 +205,7 @@ local:
     text: End-to-End Performance Initiative vision paper published
 ---
 
-[//]: TODO: Add infographic
+{% include todo.html content="Add inforgraphic" %}
 
 
 {% assign last_year = "" %}

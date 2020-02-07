@@ -15,16 +15,16 @@ entries:
       - title: What is it?
         url: /gtk_whatis.html
         output: web
-      - title: Who Uses it? (X)
+      - title: Who Uses it?
         url: /gtk_whouses.html
         output: web
-      - title: How Does it Work? (X)
-        url: /gtk_howworks.html
+      - title: How Does it Work?
+        url: /gtk_how.html
         output: web
-      - title: Why Use it? (X)
-        url: /gtk_whyuse.html
+      - title: Why Use it?
+        url: /gtk_why.html
         output: web
-      - title: Who Runs it? (X)
+      - title: Who Runs it?
         url: /gtk_whoruns.html
         output: web
 
