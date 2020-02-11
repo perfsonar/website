@@ -27,6 +27,9 @@ entries:
       - title: Who Runs it?
         url: /gtk_whoruns.html
         output: web
+      - title: Comparison with Other Systems
+        url: /gtk_comparison.html
+        output: web
 
     - title: Deployment
       output: web
@@ -110,6 +113,10 @@ entries:
 
       - title: Liquid Template Docs
         external_url: https://shopify.github.io/liquid
+        output: web
+
+      - title: Better Liquid Template Docs
+        external_url: https://help.shopify.com/en/themes/liquid
         output: web
 
       - title: Jekyll Docs
