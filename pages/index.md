@@ -15,6 +15,8 @@ Latest News:
 <b><a href="{{ post_url }}">{{ site.posts[0].title }}</a></b>
 &middot;
 {{ site.posts[0].date | date: "%B %-d, %Y" }}
+&middot;
+<a href="news.html">More news</a>...
 </center>
 
 <p align="center"><img src="images/logos/perfsonar.svg"/></p>
