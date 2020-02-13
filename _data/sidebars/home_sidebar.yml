@@ -92,7 +92,7 @@ entries:
       - title: Licenses
         url: /about_license.html
         output: web
-      - title: Logo and Usage (X)
+      - title: Logo and Usage
         url: /about_logo.html
         output: web
       - title: Privacy Policy
