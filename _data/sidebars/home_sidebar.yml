@@ -53,28 +53,34 @@ entries:
       output: web
       folderitems:
 
-      - title: Nothing Here
-        url: /nothing.html
-        output: web
-      - title: More Nothing
-        url: /nothing.html
+      - title: perfSONAR Documentation
+        url: https://docs.perfsonar.net
         output: web
 
     - title: Resources
       output: web
       folderitems:
 
-      - title: Lookup Service
+      - title: perfSONAR Lookup Service
         external_url: http://stats.es.net/ServicesDirectory/
+        output: web
+
+      - title: perfSONAR on YouTube
+        external_url: https://www.youtube.com/channel/UCjK-P49pAKK9hUrrNbbe0Sg
+        output: web
+
+      - title: perfSONAR on GitHub
+        external_url: https://github.com/perfsonar
         output: web
 
       - title: ESnet FasterData
         external_url: http://fasterdata.es.net/performance-testing/perfsonar
         output: web
 
-      - title: GitHub
-        external_url: https://github.com/perfsonar
+      - title: Network Startup Resource Center
+        external_url: https://learn.nsrc.org/perfsonar
         output: web
+
 
     - title: About
       output: web
