@@ -29,7 +29,7 @@ open-source components.  These components use varying licenses; check
 with the licence file for each of these products for more information.
 
 
-## Training and Other Written or Graphic Materials
+## Training and Other Written Materials
 
 The perfSONAR project encourages community use of all materials for
 training and education.  All training products and other written or

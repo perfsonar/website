@@ -1,20 +1,32 @@
-{% assign logo_height = "72pt" %}
+{% comment %}
+
+Notes on the height multiplication that takes place in these images:
+
+The UMich logo has the smallest text and is scaled to logo_height for
+readability.  All of the others have their heights scaled down
+relative to that so everything has roughly-equal visual weight.
+
+The logos were originally scaled to the same height, which have the
+wider logos more visual dominance.
+
+{% endcomment %}
+{% assign logo_height = 72.0 %}
   <div class="row">
     <div class="col-lg-12 footer">
       <div class="cleanlinks">
 	<center>
-	  perfSONAR is <a href="about_collaboration.html">jointly developed</a> by these partners:
+	  perfSONAR is developed by a <a href="about_collaboration.html">partnership</a> of these institutions:
 	  <br/>
-	  <a href="https://www.es.net">ESnet Logo</a>
+	  <br/>
+	  <a href="https://www.es.net"><img src="images/logos/esnet.png" alt="ESNet Logo" target="_blank" height="{{ logo_height | times: 0.5 }}pt" /></a>
 	  &nbsp;&nbsp;&nbsp;&nbsp
-	  <a href="https://www.geant.net"><img src="images/logos/geant.svg" alt="GÉANT Logo" target="_blank" height="{{ logo_height }}" /></a>
+	  <a href="https://www.geant.net"><img src="images/logos/geant.svg" alt="GÉANT Logo" target="_blank" height="{{ logo_height | times: 0.7 }}pt" /></a>
 	  &nbsp;&nbsp;&nbsp;&nbsp
-	  <a href="https://www.iu.edu"><img src="images/logos/indiana.svg" alt="Indiana University Logo" target="_blank" height="{{ logo_height }}" /></a>
+	  <a href="https://www.iu.edu"><img src="images/logos/indiana.svg" alt="Indiana University Logo" target="_blank" height="{{ logo_height | times: 0.8 }}pt" /></a>
 	  &nbsp;&nbsp;&nbsp;&nbsp
-	  <a href="https://www.internet2.edu"><img src="images/logos/internet2.svg" alt="Internet2 Logo" target="_blank" height="{{ logo_height}}" /></a>
+	  <a href="https://www.internet2.edu"><img src="images/logos/internet2.svg" alt="Internet2 Logo" target="_blank" height="{{ logo_height | times: 0.85 }}pt" /></a>
 	  &nbsp;&nbsp;&nbsp;&nbsp
-	  <a href="https://www.umich.edu"><img src="images/logos/umich.svg" alt="University of Michigan Logo" target="_blank" height="{{ logo_height}}" /></a>
-	  <br />
+	  <a href="https://www.umich.edu"><img src="images/logos/umich.svg" alt="University of Michigan Logo" target="_blank" height="{{ logo_height }}pt" /></a>
 	  <br />
 	  <br />
 	  <p>&copy;2005-{{ site.time | date: "%Y"  }} {{site.company_name}}. All rights reserved.
