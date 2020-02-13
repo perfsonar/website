@@ -4,8 +4,32 @@ keywords: about
 #tags: []
 sidebar: home_sidebar
 permalink: gtk_why.html
-toc: false
+toc: true
 ---
+
+## On Your Network
+
+Network users commonly must navigate a complicated maze of
+connectivity, all hidden from their direct control, to accomplish work
+on networks.  In many cases, the tasks of science are physically
+separated.
+
+{% include image.html file="gtk/why/maze.png" %}
+
+Without visibility into what is happening on the network, fixing
+problems can be a random walk.  To better regiment the process of
+debugging and to ensure a higher level of success, perfSONAR gives
+visibility to the nuances of each network.  perfSONAR works best when
+there is coverage on all portions of a long path.
+
+{% include image.html file="gtk/why/path.png" %}
+
+When all portions of the path have instrumentation, it is easier to
+debug, easier to operate, and easier for the base users of the
+network.
+
+
+## In Your Toolbox
 
 Buzzwords and acronyms abound in technology.  This environment is
 challenging when attempting to learn about a new product, especially

@@ -33,14 +33,23 @@ local:
 
     # TODO: Fill in missing releases
 
-  - date: 2018-11-28
+  - date: 2017-11-28
     text: perfSONAR 4.0.2 release.
 
-  - date: 2018-08-15
+  - date: 2017-08-15
     text: perfSONAR 4.0.1 release.
+
+  - date: 2017-07-27
+    text: perfSONAR 4.0.1 RC1 release.
 
   - date: 2017-04-17
     text: perfSONAR 4.0 release.  pScheduler added. CentOS7 support. OWAMP MP and BWCTL MP deprecated.
+
+  - date: 2017-03-27
+    text: perfSONAR 4.0 RC3 Release
+
+  - date: 2016-11-02
+    text: perfSONAR 4.0 RC2 Release
 
   - date: 2016-10-10
     text: The University of Michigan joins the project as a development partner.

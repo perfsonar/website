@@ -61,16 +61,20 @@ entries:
       output: web
       folderitems:
 
-      - title: perfSONAR Lookup Service
+      - title: Lookup Service
         external_url: http://stats.es.net/ServicesDirectory/
         output: web
 
-      - title: perfSONAR on YouTube
+      - title: YouTube
         external_url: https://www.youtube.com/channel/UCjK-P49pAKK9hUrrNbbe0Sg
         output: web
 
-      - title: perfSONAR on GitHub
+      - title: GitHub
         external_url: https://github.com/perfsonar
+        output: web
+
+      - title: Publications and Presentations
+        url: resources_publications.html
         output: web
 
       - title: ESnet FasterData
@@ -89,8 +93,11 @@ entries:
       - title: History
         url: /about_history.html
         output: web
-      - title: News
+      - title: Latest News
         url: /news.html
+        output: web
+      - title: News Archive
+        url: /news_archive.html
         output: web
       - title: Licenses
         url: /about_license.html
