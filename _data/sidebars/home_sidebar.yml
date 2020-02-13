@@ -86,9 +86,6 @@ entries:
       - title: News
         url: /news.html
         output: web
-      - title: Development Collaboration
-        url: /about_collaboration.html
-        output: web
       - title: Licenses
         url: /about_license.html
         output: web
@@ -100,6 +97,18 @@ entries:
         output: web
       - title: Contact Us
         url: /about_contact.html
+        output: web
+
+    - title: Development Collaboration
+      output: web
+      folderitems:
+
+      - title: About the Collaboration
+        url: /collab_about.html
+        output: web
+
+      - title: Mission Statement
+        url: /collab_mission.html
         output: web
 
 
