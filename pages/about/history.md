@@ -214,8 +214,14 @@ local:
     text: End-to-End Performance Initiative vision paper published
 ---
 
-{% include todo.html content="Add inforgraphic" %}
+## Timeline
 
+{% include image.html file="about/history-2001-2015.jpg" %}
+
+{% include image.html file="about/history-2016-2019.jpg" %}
+
+
+## Detailed History
 
 {% assign last_year = "" %}
 {% capture now %}{{ "now" | date: '%s' }}{% endcapture %}
@@ -230,7 +236,7 @@ local:
   {% if now > epoch %}
 
     {% if year != last_year %}
-## {{ year }}
+### {{ year }}
       {% assign last_year = year %}
     {% endif %}
 
