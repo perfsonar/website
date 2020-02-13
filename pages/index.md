@@ -23,17 +23,41 @@ Latest News:
 {% include note.html content="Items in the sidebar marked (X) do not exist yet." %}
 {% include note.html content="Search doesn't work yet." %}
 
-## Here's a short summary.
+
+
 
 perfSONAR is the <b>perf</b>ormance <b>S</b>ervice-<b>O</b>riented
-<b>N</b>etwork monitoring <b>AR</b>chitecture, a toolkit for
-identifying performance problems on your network.
+<b>N</b>etwork monitoring <b>AR</b>chitecture, a network measurement
+toolkit designed to provide federated coverage of paths, and help to
+establish end-to-end usage expectations.  There are thousands of
+perfSONAR instances deployed worldwide, many of which are available
+for open testing of key measures of network performance.  This global
+infrastructure helps to identify and isolate problems as they happen,
+making the role of supporting network users easier for engineering
+teams, and increasing productivity when utilizing network
+resources.
 
-
-## Here's a nice video.
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EO2NiNaASYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+{% comment %}
+This is the image that was originally on the front page.
+![perfSONAR](images/index_about.png)
+{% endcomment %}
+
+perfSONAR provides a uniform interface that allows for the scheduling of
+measurements, storage of data in uniform formats, and scalable methods
+to retrieve data and generate visualizations.  This extensible system
+can be modified to support new metrics, and there are endless
+possibilities for data presentation. 
+
+perfSONAR is developed and maintained through an international
+[collaboration](collab_about.html) led by [ESnet](https://www.es.net),
+[G&Eacute;ANT](https://www.geant.net), [Indiana
+University](https://www.iu.edu),
+[Internet2](https://www.internet2.edu) and [The University of
+Michigan](https://www.umich.edu).
+
 
 
 ## Here are some things.
