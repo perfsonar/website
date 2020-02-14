@@ -9,6 +9,4 @@ toc: false
 comments: false
 ---
 
-## Some Stuff
-
-    {{ page.content }}
+Scratch.

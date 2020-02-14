@@ -165,6 +165,10 @@ entries:
         external_url: https://mfeit-internet2.github.io/jekyll-test
         output: web
 
+      - title: Diagnostics
+        url: diags.html
+        output: web
+
       - title: Scratch Page
         url: scratch.html
         output: web
