@@ -9,6 +9,8 @@ toc: false
 comments: false
 ---
 
+{% include important.html content="This is a development test for a potential replacement for the perfSONAR web site.  It is not the official site, so please take anything you see here with a grain of salt." %}
+
 <center>
 Latest News:
 {% assign post_url = site.posts[0].url | remove: "/" %}
@@ -21,14 +23,7 @@ Latest News:
 
 <p align="center"><img src="images/logos/perfsonar.svg"/></p>
 
-{% include important.html content="This is a development test for a potential replacement for the perfSONAR web site.  It is not the official site, so please take anything you see here with a grain of salt." %}
-{% include note.html content="Items in the sidebar marked (X) do not exist yet." %}
-{% include note.html content="Search doesn't work yet." %}
-
-
-
-
-perfSONAR is the <b>perf</b>ormance <b>S</b>ervice-<b>O</b>riented
+<p>perfSONAR is the <b>perf</b>ormance <b>S</b>ervice-<b>O</b>riented
 <b>N</b>etwork monitoring <b>AR</b>chitecture, a network measurement
 toolkit designed to provide federated coverage of paths, and help to
 establish end-to-end usage expectations.  There are thousands of
@@ -36,16 +31,13 @@ perfSONAR instances deployed worldwide, many of which are available
 for open testing of key measures of network performance.  This global
 infrastructure helps to identify and isolate problems as they happen,
 making the role of supporting network users easier for engineering
-teams, and increasing productivity when utilizing network
-resources.
+teams, and increasing productivity when utilizing network resources.</p>
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EO2NiNaASYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-{% comment %}
-This is the image that was originally on the front page.
-![perfSONAR](images/index_about.png)
-{% endcomment %}
+<br/>
+<br/>
+{% include youtube.html id="EO2NiNaASYo" %}
+<br/>
+<br/>
 
 perfSONAR provides a uniform interface that allows for the scheduling of
 measurements, storage of data in uniform formats, and scalable methods

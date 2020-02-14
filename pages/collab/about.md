@@ -15,25 +15,25 @@ local:
       url: https://www.es.net
       logo: images/logos/esnet.png
       scale: 0.75
-      year: Founding Partner
+      year: Founder
 
     - name: G&Eacute;ANT
       url: https://www.geant.net
       logo: images/logos/geant.svg
       scale: 1.0
-      year: Founding Partner
+      year: Founder
 
     - name: Indiana University
       url: https://www.iu.edu
       logo: images/logos/indiana.svg
       scale: 1.0
-      year: Founding Partner
+      year: Founder
 
     - name: Internet2
       url: https://www.internet2.edu
       logo: images/logos/internet2.svg
       scale: 1.0
-      year: Founding Partner
+      year: Founder
 
     - name: The University of Michigan
       url: https://www.umich.edu

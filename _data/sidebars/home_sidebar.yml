@@ -57,6 +57,10 @@ entries:
         url: https://docs.perfsonar.net
         output: web
 
+      - title: Release Notes
+        url: /releasenotes_index.html
+        output: web
+
     - title: Resources
       output: web
       folderitems:
