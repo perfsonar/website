@@ -1,6 +1,6 @@
 # perfSONAR Web Site
 
-This repository contains he perfSONAR web site that lives at
+This repository contains the perfSONAR web site that lives at
 [https://www.perfsoanr.net](https://www.perfsoanr.net).
 
 The live pages live in the [gh-pages](https://github.com/mfeit-internet2/jekyll-test/tree/gh-pages) branch.
