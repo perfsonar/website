@@ -4,10 +4,12 @@ keywords: about
 #tags: []
 sidebar: home_sidebar
 permalink: gtk_whouses.html
-toc: false
+toc: true
 ---
 
-## Community Leaders
+## Users
+
+### Community Leaders
 
 perfSONAR is an integral part of the cyber-infrastructure for a
 scientific facility, campus, laboratory, network provider, or exchange
@@ -20,7 +22,7 @@ perfSONAR deployed, and used, to provide network reliability
 information.
 
 
-## Network Operators
+### Network Operators
 
 Ensuring that networks are functioning in an optimal manner is
 critical for network engineers.  Traditional passive monitoring tools,
@@ -33,7 +35,7 @@ areas.  perfSONAR is a part of ESnet's Science DMZ strategy, and works
 hand in hand with other solutions to facilitate friction free
 scientific network use.
 
-## Network Users
+### Network Users
 
 Networks are critical part of world, and most people interact with
 them on a daily basis, perhaps without realizing or caring about lower
@@ -44,7 +46,7 @@ performance, and helps to isolate where "slowness" can be found, and
 helps to find and amicable solution for the benefit of all.
 
 
-## Virtual Organizations
+### Virtual Organizations
 
 Organized activities between distributed groups of users rely on
 stable, well maintained, network infrastructure.  Groupings of
@@ -59,7 +61,7 @@ possible.  perfSONAR provides deeper insight into network use cases
 than is possible with traditional monitoring tools.
 
 
-## Software & Service Developers
+### Software & Service Developers
 
 perfSONAR is middle-ware between network monitoring tools and higher
 level services such as visualizations and workflow managers.  Using
@@ -70,10 +72,25 @@ similar APIs to facilitate the deployment, sharing, and location of
 new products.
 
 
-## Network Researchers
+### Network Researchers
 
 perfSONAR data, gathered from numerous locations around the world, can
 provide untapped knowledge related to the performance of networks.
 Using a set of APIs, it is possible to retrieve and study this data,
 further advancing the understanding of computer and information
 sciences.
+
+
+## Finding perfSONAR Hosts
+
+
+perfSONAR tools are deployed on over 2,000 [registered
+hosts](http://stats.es.net/ServicesDirectory) registered hosts in over
+300 top-level domains and more than 1,000 organizations around the
+world.  Based on discussions with the user base, it is believed that
+there are at least that many private, unregistered perfSONAR
+installations.
+
+{% include image.html file="gtk/whouses/ps-worldwide.png"
+   alt="perfSONAR worldwide installations"
+   caption="Image Updated February, 2020" %}

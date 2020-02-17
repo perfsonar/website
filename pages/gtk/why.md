@@ -75,3 +75,11 @@ Education networking community that is only successful because of the
 interest an effort invested by the core partners and key stakeholders.
 Feedback is always valuable in determining what is and is not needed
 to address the challenges of scientific networking support.
+
+
+## At Your Institution
+
+perfSONAR is widely-used in research and education and has been a
+vital part of several research solicitations including the NSF's
+[CC-DNI](https://www.nsf.gov/pubs/2015/nsf15534/nsf15534.htm) and
+[IRNC](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503382&amp;org=ACI).

@@ -11,17 +11,34 @@ comments: false
 
 {% include important.html content="This is a development test for a potential replacement for the perfSONAR web site.  It is not the official site, so please take anything you see here with a grain of salt." %}
 
-<center>
-Latest News:
+
+<!-- LATEST NEWS -->
+
+{% capture epoch_now %}{{ "now" | date: '%s' }}{% endcapture %}
+{% capture epoch_post %}{{ site.posts[0].date | date: '%s' }}{% endcapture %}
+{% assign days_since = epoch_now | minus: epoch_post | divided_by: 86400 %}
+{% if days_since < 2 %}
+  {% assign news_message = "This Just In" %}
+{% elsif days_since < 14 %}
+  {% assign news_message = "Latest News" %}
+{% else %}
+  {% assign news_message = "Most Recent News" %}
+{% endif %}
+<p align="center">
+{{ news_message }}: {{ site.posts[0].date | date: "%B %-d, %Y" }}<br/>
 {% assign post_url = site.posts[0].url | remove: "/" %}
 <b><a href="{{ post_url }}">{{ site.posts[0].title }}</a></b>
-&middot;
-{{ site.posts[0].date | date: "%B %-d, %Y" }}
-&middot;
+<br/>
 <a href="news.html">More news</a>...
-</center>
+</p>
+
+
+<!-- LOGO -->
 
 <p align="center"><img src="images/logos/perfsonar.svg"/></p>
+
+
+<!-- TEXT -->
 
 <p>perfSONAR is the <b>perf</b>ormance <b>S</b>ervice-<b>O</b>riented
 <b>N</b>etwork monitoring <b>AR</b>chitecture, a network measurement

@@ -35,17 +35,20 @@ entries:
       output: web
       folderitems:
 
-      - title: Downloading (X)
-        url: /deploy_downloading.html
+      - title: Downloading
+        url: /deployment_download.html
         output: web
-      - title: Node Placement (X)
-        url: /deploy_placement.html
+      - title: Deployment Models
+        url: /deployment_models.html
         output: web
-      - title: Monitoring Architecture (X)
-        url: /deploy_architecture.html
+      - title: Node Placement
+        url: /deployment_placement.html
         output: web
-      - title: Security (X)
-        url: /deploy_security.html
+      - title: Local Deployment
+        url: /deployment_local.html
+        output: web
+      - title: Security
+        url: /deployment_security.html
         output: web
 
 
@@ -57,9 +60,14 @@ entries:
         url: https://docs.perfsonar.net
         output: web
 
+      - title: FAQ
+        url: https://docs.perfsonar.net/FAQ
+        output: web
+
       - title: Release Notes
         url: /releasenotes_index.html
         output: web
+
 
     - title: Resources
       output: web
@@ -79,6 +87,14 @@ entries:
 
       - title: Publications and Presentations
         url: resources_publications.html
+        output: web
+
+      - title: Introduction to Network Metrics
+        url: resources_metrics.html
+        output: web
+
+      - title: Using and Interpreting perfSONAR
+        url: resources_using.html
         output: web
 
       - title: ESnet FasterData
@@ -124,9 +140,22 @@ entries:
         url: /collab_about.html
         output: web
 
+      - title: Framework
+        url: /collab_framework.html
+        output: web
+
       - title: Mission Statement
         url: /collab_mission.html
         output: web
+
+      - title: Requirements Gathering
+        url: /collab_requirements.html
+        output: web
+
+      - title: Project Roadmap
+        url: /collab_roadmap.html
+        output: web
+
 
 
     - title: Dev Stuff -- REMOVE THIS
