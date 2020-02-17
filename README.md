@@ -1,7 +1,6 @@
-# jekyll-test
+# perfSONAR Web Site
 
-This is a development kit for experimentation with Jekyll for a
-perfsonar.net replacement.
+These are the files used to generate the perfSONAR web site on GitHub pages.
 
 The site is based on [Jekyll](https://jekyllrb.com), a static site
 generator based on Ruby and the
@@ -90,6 +89,15 @@ To view the website, point a browser on the host at
 
 
 ## Other Notes
+
+### News Items
+
+Items for the news feed should be added to the `_posts` directory.  Use one
+of the existing posts as a template.
+
+### Releases
+
+When adding release notes, see [the notes for that section](pages/releasenotes)
 
 ### Favicon
 
