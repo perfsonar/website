@@ -87,3 +87,12 @@ Configuration file: /home/you/path/to/checked/out/website/_config.yml
 
 To view the website, point a browser on the host at
 `file:///home/you/path/to/checked/out/website/_site/index.html`.
+
+
+## Other Notes
+
+### Favicon
+
+The `images/favicon` and favicon data in `_include/head.html` were
+generated with https://realfavicongenerator.net and a tightly-cropped
+version of the logo.
