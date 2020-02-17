@@ -131,7 +131,7 @@ li.sidebarTitle {
 
 
 /* this part adds an icon after external links, using FontAwesome*/
-/* TODO: Would be nice if we had a way to turn this on and off. */
+/* It would be nice if we had a way to turn this on and off. */
 a[href^="http://"]:after, a[href^="https://"]:after {
     /* content: "\f08e"; */
     content: "";

@@ -31,8 +31,6 @@ local:
   - date: 2019-02-25
     text: 2019 perfSONAR 4.1.6 release.
 
-    # TODO: Fill in missing releases
-
   - date: 2017-11-28
     text: perfSONAR 4.0.2 release.
 
