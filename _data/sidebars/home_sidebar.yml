@@ -57,11 +57,11 @@ entries:
       folderitems:
 
       - title: perfSONAR Documentation
-        url: https://docs.perfsonar.net
+        external_url: https://docs.perfsonar.net
         output: web
 
       - title: FAQ
-        url: https://docs.perfsonar.net/FAQ
+        external_url: https://docs.perfsonar.net/FAQ
         output: web
 
       - title: Release Notes
