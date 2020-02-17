@@ -30,6 +30,7 @@ port: 4000
 exclude:
   - .idea/
   - .gitignore
+  - archive
   - vendor
   - Makefile
   - Vagrantfile
