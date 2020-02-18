@@ -95,9 +95,16 @@ To view the website, point a browser on the host at
 Items for the news feed should be added to the `_posts` directory.  Use one
 of the existing posts as a template.
 
+
 ### Releases
 
-When adding release notes, see [the notes for that section](pages/releasenotes)
+Release notes are in the `_releasenotes` collection.  When adding a
+new release, use an existing file as a template.
+
+When doing a release, make sure to set the `supported` item in all
+no-longer-supported releases to `false`.  (Do this for betas, even if
+they were for a released version.)
+
 
 ### Favicon
 

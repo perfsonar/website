@@ -4,8 +4,10 @@
 topnav:
 - title: Topnav
   items:
-    - title: What's New?
+    - title: News
       url: /news.html
+    - title: Releases
+      url: /docs_releasenotes.html
 
 #Topnav dropdowns
 topnav_dropdowns:

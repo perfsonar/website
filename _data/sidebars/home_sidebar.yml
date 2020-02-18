@@ -65,7 +65,7 @@ entries:
         output: web
 
       - title: Release Notes
-        url: /releasenotes_index.html
+        url: /docs_releasenotes.html
         output: web
 
 

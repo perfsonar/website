@@ -65,6 +65,12 @@ kramdown:
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
 collections:
+
+  releasenotes:
+    output: true
+    layout: page
+    permalink: /:collection-:name:output_ext
+
   tooltips:
     output: false
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
@@ -101,6 +107,20 @@ defaults:
       search: true
       sidebar: home_sidebar
       topnav: topnav
+
+  -
+    scope:
+      path: ""
+      type: "releasenotes"
+    values:
+      layout: "page"
+      comments: false
+      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
+      search: true
+      sidebar: home_sidebar
+      toc: true
+      topnav: topnav
+      keywords: release notes
 
 # these are defaults used for the frontmatter for these file types
 
