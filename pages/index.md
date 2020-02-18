@@ -8,12 +8,40 @@ permalink: index.html
 toc: false
 comments: false
 ---
+{{}}
 
-{% include important.html content="This is a development test for a potential replacement for the perfSONAR web site.  It is not the official site, so please take anything you see here with a grain of salt." %}
+{%- comment -%}
+-------------------------------------------------------------------------------
+			       RELEASE
+
+This will show a release notice for 45 days after a new release note
+is posted.
+-------------------------------------------------------------------------------
+{%- endcomment -%}
+{% assign latest_release = site.releasenotes | reverse | first %}
+{% capture epoch_now %}{{ "now" | date: '%s' }}{% endcapture %}
+{% capture epoch_since %}{{ latest_release.date | date: '%s' }}{% endcapture %}
+{% assign days_since = epoch_now | minus: epoch_since | divided_by: 86400 %}
+{% if days_since < 14 %}
+  {% assign release_message = "New Release" %}
+{% elsif days_since < 45 %}
+  {% assign release_message = "Recent Release" %}
+{% else %}
+  {% assign release_message = "Current Release" %}
+{% endif %}
+{% if days_since < 45 %}
+  {% assign releasenote_url = latest_release.url | remove: "/" %}
+  <p align="center">{{ release_message }}: <b><a href="{{ releasenote_url }}">{{ latest_release.version }}</a></b></p>
+{% endif %}
 
 
-<!-- LATEST NEWS -->
+{%- comment -%}
+-------------------------------------------------------------------------------
+				 NEWS
 
+This will show a news notice for anything less than 60 days old.
+-------------------------------------------------------------------------------
+{%- endcomment -%}
 {% capture epoch_now %}{{ "now" | date: '%s' }}{% endcapture %}
 {% capture epoch_post %}{{ site.posts[0].date | date: '%s' }}{% endcapture %}
 {% assign days_since = epoch_now | minus: epoch_post | divided_by: 86400 %}
@@ -22,23 +50,31 @@ comments: false
 {% elsif days_since < 14 %}
   {% assign news_message = "Latest News" %}
 {% else %}
-  {% assign news_message = "Most Recent News" %}
+  {% assign news_message = "News" %}
 {% endif %}
-<p align="center">
-{{ news_message }}: {{ site.posts[0].date | date: "%B %-d, %Y" }}<br/>
-{% assign post_url = site.posts[0].url | remove: "/" %}
-<b><a href="{{ post_url }}">{{ site.posts[0].title }}</a></b>
-<br/>
-<a href="news.html">More news</a>...
-</p>
+{% if days_since < 60 %}
+  {% assign post_url = site.posts[0].url | remove: "/" %}
+  <p align="center">{{ news_message }}: <b><a href="{{ post_url }}">{{ site.posts[0].title }}</a></b></p>
+{% endif %}
 
 
-<!-- LOGO -->
+{%- comment -%}
+-------------------------------------------------------------------------------
+				 LOGO
+-------------------------------------------------------------------------------
+{%- endcomment -%}
+<p align="center"><img src="images/logos/perfsonar.svg" /></p>
 
-<p align="center"><img src="images/logos/perfsonar.svg"/></p>
 
+<!--
+{% include important.html content="This is a development test for a potential replacement for the perfSONAR web site.  It is not the official site, so please take anything you see here with a grain of salt." %}
+-->
 
-<!-- TEXT -->
+{%- comment -%}
+-------------------------------------------------------------------------------
+			     DESCRIPTION
+-------------------------------------------------------------------------------
+{%- endcomment -%}
 
 <p>perfSONAR is the <b>perf</b>ormance <b>S</b>ervice-<b>O</b>riented
 <b>N</b>etwork monitoring <b>AR</b>chitecture, a network measurement
@@ -48,91 +84,17 @@ perfSONAR instances deployed worldwide, many of which are available
 for open testing of key measures of network performance.  This global
 infrastructure helps to identify and isolate problems as they happen,
 making the role of supporting network users easier for engineering
-teams, and increasing productivity when utilizing network resources.</p>
+teams and increasing productivity when utilizing network
+resources.</p>
 
-<br/>
-<br/>
 {% include youtube.html id="EO2NiNaASYo" %}
-<br/>
-<br/>
 
-perfSONAR provides a uniform interface that allows for the scheduling of
-measurements, storage of data in uniform formats, and scalable methods
-to retrieve data and generate visualizations.  This extensible system
-can be modified to support new metrics, and there are endless
-possibilities for data presentation. 
-
-perfSONAR is developed and maintained through an international
-[collaboration](collab_about.html) led by [ESnet](https://www.es.net),
-[G&Eacute;ANT](https://www.geant.net), [Indiana
-University](https://www.iu.edu),
-[Internet2](https://www.internet2.edu) and [The University of
-Michigan](https://www.umich.edu).
+<p>perfSONAR provides a uniform interface that allows for the
+scheduling of measurements, storage of data in uniform formats, and
+scalable methods to retrieve data and generate visualizations.  This
+extensible system can be modified to support new metrics, and there
+are endless possibilities for data presentation.</p>
 
 
 
-## Here are some things.
 
-<div class="row">
-
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-download fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <!-- <h4>Installation</h4> -->
- 		     <!-- <p>How to download and install perfSONAR and use it on your network.</p> -->
-                     <a href="tag_getting_started.html" class="btn btn-primary">Installation</a>
-                 </div>
-             </div>
-         </div>
-
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <!-- <h4>Documentation</h4> -->
-                     <!-- <p>All of perfSONAR's gory details.</p> -->
-                     <a href="https://docs.perfsonar.net" class="btn btn-primary">Documentation</a>
-                 </div>
-             </div>
-         </div>
-
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-th fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <a href="https://perfsonar-testbed-ma.grnoc.iu.edu/maddash-webui/index.cgi?dashboard=PWA%20Development%20Testbed" class="btn btn-primary">Test Bed</a>
-                 </div>
-             </div>
-         </div>
-
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <a href="https://www.andylake.com/" class="btn btn-primary">Andy Lake</a>
-                 </div>
-             </div>
-         </div>
-
-</div>
