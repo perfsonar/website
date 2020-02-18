@@ -191,7 +191,11 @@ entries:
         output: web
 
       - title: GitHub Pages Version
-        external_url: https://mfeit-internet2.github.io/jekyll-test
+        external_url: https://perfsonar.github.io/website
+        output: web
+
+      - title: GitHub Repo
+        external_url: https://github.com/perfsonar/website/tree/gh-pages
         output: web
 
       - title: Diagnostics
