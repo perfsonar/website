@@ -1,5 +1,6 @@
 /* pS Green:  #206e31 */
 
+
 .summary {
     color: #808080;
     border-left: 5px solid #E50E51;
@@ -12,23 +13,23 @@ h4 {color: #808080; }
 
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #248ec2;
+    background-color: #31b63f;
     color: white;
 }
 
 
 # Nav Bar Active Tab
 .nav > li.active > a {
-    background-color: #206e31;
+    background-color: #36c944;
 }
 
 
 .nav > li.active > a {
-    background-color: #206e31;
+    background-color: #1b6522;
 }
 
 .nav > li > a:hover {
-    background-color: #72ac4a;
+    background-color: #36c944;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
@@ -55,10 +56,6 @@ a[data-toggle="tooltip"] {
     cursor: default;
 }
 
-.navbar-inverse {
-    background-color: #206e31;
-    border-color: #5b893c;
-}
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #5b893c;
@@ -71,8 +68,16 @@ a[data-toggle="tooltip"] {
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #72ac4a !important;
+    background-color: #1b6522;
+    /* #border-color: #72ac4a !important; */
+
 }
+
+.navbar-inverse {
+    background-color: #1b6522;
+    border-color: #1b6522;
+}
+
 
 .btn-primary {
     color: #ffffff;
