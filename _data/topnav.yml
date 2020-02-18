@@ -9,12 +9,12 @@ topnav:
     - title: Releases
       url: /docs_releasenotes.html
 
-#Topnav dropdowns
-topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
-    - title: Nothing Here
-      folderitems:
-        - title: We weren't kidding.
-          external_url: https://github.com/perfsonar
+# #Topnav dropdowns
+# topnav_dropdowns:
+# - title: Topnav dropdowns
+#   folders:
+#     - title: Nothing Here
+#       folderitems:
+#         - title: We weren't kidding.
+#           external_url: https://github.com/perfsonar
 
