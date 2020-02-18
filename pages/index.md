@@ -1,5 +1,5 @@
 ---
-# title: "perfSONAR"
+title: ""
 keywords: sample homepage
 # tags: [ home ]
 sidebar: home_sidebar
@@ -8,8 +8,6 @@ permalink: index.html
 toc: false
 comments: false
 ---
-{{}}
-
 {%- comment -%}
 -------------------------------------------------------------------------------
 			       RELEASE
@@ -18,7 +16,7 @@ This will show a release notice for 45 days after a new release note
 is posted.
 -------------------------------------------------------------------------------
 {%- endcomment -%}
-{% assign latest_release = site.releasenotes | reverse | first %}
+{% assign latest_release = site.releasenotes | last %}
 {% capture epoch_now %}{{ "now" | date: '%s' }}{% endcapture %}
 {% capture epoch_since %}{{ latest_release.date | date: '%s' }}{% endcapture %}
 {% assign days_since = epoch_now | minus: epoch_since | divided_by: 86400 %}

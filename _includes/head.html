@@ -17,7 +17,7 @@
 
 
 
-{% if page.title %}
+{% if page.title != "" %}
 <title>{{ page.title }} | {{ site.site_title }}</title>
 {% else %}
 <title>{{ site.site_title }}</title>
