@@ -111,3 +111,8 @@ local:
 <h4>perfSONAR</h4>
 
 [This is a link.]()
+
+| Column 1 | Column2 |
+|----------|---------|
+| Foo | Bar |
+| Baz | Quux |
