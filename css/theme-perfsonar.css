@@ -147,3 +147,16 @@ a[href^="http://"]:after, a[href^="https://"]:after {
     text-decoration: none;
     padding-left: 3px;
 }
+
+
+/*
+ Overrides of things in bootstrap.min.css
+ */
+
+.text-primary {
+    color: #1b6522
+}
+
+a.text-primary:hover {
+    color: #31b63f
+}
