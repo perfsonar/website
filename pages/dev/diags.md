@@ -3,7 +3,7 @@ title: Jekyll Diagnostics
 keywords: diags
 # tags: [ home ]
 sidebar: home_sidebar
-permalink: diags.html
+permalink: dev_diags.html
 toc: true
 comments: false
 ---
@@ -16,23 +16,23 @@ for more information.
 
 ### Collections
 
-   {{ site.collections }}
+    {{ site.collections }}
 
 ### Data
 
-   {{ site.data }}
+    {{ site.data }}
 
 ### Static Files
 
-   {{ site.static_files }}
+    {{ site.static_files }}
 
 ### Time
 
-   {{ site.time }}
+    {{ site.time }}
 
 ### URL
 
-   {{ site.URL }}
+    {{ site.url }}
 
 
 ## Page
