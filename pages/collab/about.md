@@ -44,7 +44,7 @@ local:
   contrib:
 
     - name: APAN Tokyo XP Network Operations Center
-      url: https://www.jp.apan.net/NOC
+      url: http://www.jp.apan.net/NOC
 
     - name: Brookhaven National Laboratory
       url: https://www.bnl.gov/world
@@ -133,7 +133,7 @@ local:
       url: https://www.psu.edu
 
     - name: PerfClub
-      url: https://perfclub.org
+      url: http://perfclub.org
 
     - name: Pittsburgh Supercomputing Center
       nick: PSC
@@ -141,7 +141,7 @@ local:
 
     - name: Poznań Supercomputing and Networking Center
       nick: PSNC
-      url: https://www.man.poznan.pl/online/en
+      url: http://www.man.poznan.pl/online/en
 
     - name: Rede Nacional de Ensino e Pesquisa
       url: https://www.rnp.br/en
