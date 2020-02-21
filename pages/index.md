@@ -61,7 +61,7 @@ This will show a news notice for anything less than 60 days old.
 				 LOGO
 -------------------------------------------------------------------------------
 {%- endcomment -%}
-<p align="center"><img src="images/logos/perfsonar.svg" /></p>
+<p align="center"><img src="images/logos/perfsonar/perfsonar-logo-black-full.svg" /></p>
 
 
 <!--

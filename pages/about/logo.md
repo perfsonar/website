@@ -8,49 +8,7 @@ sidebar: home_sidebar
 comments: false
 ---
 
-<p align="center"><img src="images/logos/perfsonar-powered.svg" height="24pt" /></p>
-
-## The Logo
-
-### Variants
-
- * **Standard** - The crosshairs with surrounding _perfSONAR_ text.
-   Use this version to refer to perfSONAR the product.
-
- * `powered` - The standard logo with "powered" underneath.  Use this
-   version on hardware devices running perfSONAR or software that has
-   perfSONAR embedded.
-
- * `icon` - The crosshairs only.  Use this version as a symbol for
-   perfSONAR nodes on network diagrams or as bullets in perfSONAR
-   marketing material.
-
-### Renderings
-
-The logo is provided in a number of different formats, with the type
-of rendering detailed in keywords in the filenames.
-
- * `black` - Text rendered in black with crosshairs filled in solid
-   green
-
- * `white` - Text rendered in white with crosshairs filled in solid
-   green
-
- * `transparent` - Crosshairs filled in green with an opacity of 50%
-
- * `mono` - Monochrome rendering of the crosshairs with no fill
-
-### Example File Names
-
- * `perfsonar-black-transparent.svg` is the standard logo with black
-   text and the _O_ filled in green with an opacity of 50%.
-
- * `perfsonar-icon-black.mono.svg` is the icon with black lines and no
-   fill.
-
- * `perfsonar-powered-white-mono-200.png` is the Powered logo with
-    white text and no fill rendered as a 200-pixel-wide PNG.
-
+<p align="center"><img src="images/logos/perfsonar/perfsonar-powered-black-full.svg" height="24pt" /></p>
 
 ## Usage Guidelines
 
@@ -123,7 +81,62 @@ Under the following terms:
 
 ## Download
 
-Please read the [license](#license) and [usage
+Please read and the [license](#license) and [usage
 guidelines](#usage-guidelines) before downloading the perfSONAR logo.
 
-{% include todo.html content="Need tarball with SVGs and pre-built PNGs." %}
+ * [perfSONAR Logo Tarball, gzip-compressed](files/perfsonar-logo.tar.gz)
+ * [perfSONAR Logo Zip](files/perfsonar-logo.zip)
+
+
+### File Names
+
+The Tar and Zip contain numerous files with various renderings of the
+logo, each named in one of these formats:
+
+ * `perfsonar-TYPE-COLOR-FILL.svg` - [Scalable Vector
+   Graphics](https://www.w3.org/TR/SVG2) with all text converted to
+   paths so fonts are not required.
+
+ * `perfsonar-TYPE-COLOR-FILL-HEIGHT.png` - [Portable Network
+   Graphics](http://www.libpng.org/pub/png) with a transparent
+   background in various heights.
+
+`TYPE`, `COLOR`, `FILL` and `HEIGHT` are described in the sections
+below.
+
+
+#### Type
+
+ * `logo` - The crosshairs with surrounding _perfSONAR_ text.  Use
+   this version to refer to perfSONAR the product.
+
+ * `powered` - The standard logo with "powered" underneath.  Use this
+   version on hardware devices running perfSONAR or software that has
+   perfSONAR embedded.
+
+ * `icon` - The crosshairs only.  Use this version as a symbol for
+   perfSONAR nodes on network diagrams or as bullets in perfSONAR
+   marketing material.
+
+#### Color
+
+The color refers to the color of the crosshairs and text, if the
+latter is present.  This will be `black` or `white`.
+
+
+#### Fill
+
+ * `empty` - The area inside the crosshairs is not filled.
+
+ * `full` - The area inside the crosshairs is filled in the RGB color
+   `#31b63f` at 100% opacity.
+
+ * `transparent` - Like `full`, but with the opacity of the fill at
+   75%.
+
+
+#### Height
+
+For PNG images, this is the height in pixels.
+
+
