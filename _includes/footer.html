@@ -29,10 +29,14 @@ wider logos more visual dominance.
 	  <a href="https://www.umich.edu"><img src="images/logos/umich.svg" alt="University of Michigan Logo" target="_blank" height="{{ logo_height }}pt" /></a>
 	  <br />
 	  <br />
-	  <p>&copy;2005-{{ site.time | date: "%Y"  }} {{site.company_name}}. All rights reserved.
+	  <p>&copy;2005-{{ site.time | date: "%Y"  }} {{site.company_name}}.
+	    &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+	    <a href="about_license.html">License</a>
+	    &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+	    <a href="about_privacy.html">Privacy</a>
 	    &nbsp;&nbsp;&middot;&nbsp;&nbsp;
 	    {% if page.last_updated %}<span>This page last updated:</span> {{page.last_updated}}<br/>{% endif %}
-	    Site last updated {{ site.time | date: "%B %-d, %Y"  }}.</p>
+	    Site updated {{ site.time | date: "%B %-d, %Y"  }}.</p>
 	</center>
       </div>
     </div>
