@@ -24,8 +24,8 @@ entries:
       - title: Why Use it?
         url: /gtk_why.html
         output: web
-      - title: Who Runs it?
-        url: /gtk_whoruns.html
+      - title: Who Develops it?
+        url: /gtk_whodevelops.html
         output: web
       - title: Comparison with Other Systems
         url: /gtk_comparison.html
