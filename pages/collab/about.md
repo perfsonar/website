@@ -218,13 +218,18 @@ perfSONAR.  The participants in this partnership are:
 {% assign partner_length = page.local.partner | size %}
 {% assign partner_percent = 1.0 | divided_by: partner_length | times: 100.0 %}
 
-{% include todo.html content="This table needs to be cleaned up." %}
 <table align="center" width="100%">
   <tr>
 {% for partner in page.local.partner %}
-    <td width="{{ partner_percent }}%" style="align:center; vertical-align:bottom;">
-      <center><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.logo }}" alt="{{ partner.name }}" style="height: {{ logo_height | times: partner.scale }}pt;" /></a><br/>{{ partner.year }}</center>
+    <td width="{{ partner_percent }}%" valign="middle" style="align:center; vertical-align:middle;">
+      <center><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.logo }}" alt="{{ partner.name }}" style="height: {{ logo_height | times: partner.scale }}pt;" /></a></center>
     </td>
+{% endfor %}
+  </tr>
+
+  <tr>
+{% for partner in page.local.partner %}
+    <td width="{{ partner_percent }}%"><center>{{ partner.year }}</center></td>
 {% endfor %}
   </tr>
 </table>
