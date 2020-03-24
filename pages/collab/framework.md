@@ -94,7 +94,7 @@ presentation does not need to be formal. Elements might include:
 
  * Description of proposed language and other technical details
 
- * Description of planned
+ * Description of planned work
 
 {% include todo.html content="The last bullet above is missing content." %}
 
