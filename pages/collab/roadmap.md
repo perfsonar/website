@@ -8,4 +8,5 @@ sidebar: home_sidebar
 comments: false
 ---
 
-{% include todo.html content="Develop a fresh roadmap.  The version on the old site is a year out of date." %}
+<br/><br/><br/><br/>
+<p align="middle">A new project road map is in development.</p>
