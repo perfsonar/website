@@ -1,0 +1,157 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+  - title: Sidebar
+    levels: two
+    folders:
+
+    - title: Get to Know perfSONAR
+      output: web
+      folderitems:
+
+      - title: perfSONAR Home
+        url: /index.html
+        output: web
+      - title: What is it?
+        url: /gtk_whatis.html
+        output: web
+      - title: Who Uses it?
+        url: /gtk_whouses.html
+        output: web
+      - title: How Does it Work?
+        url: /gtk_how.html
+        output: web
+      - title: Why Use it?
+        url: /gtk_why.html
+        output: web
+      - title: Who Develops it?
+        url: /gtk_whodevelops.html
+        output: web
+      - title: Comparison with Other Systems
+        url: /gtk_comparison.html
+        output: web
+
+    - title: Deployment
+      output: web
+      folderitems:
+
+      - title: Downloading
+        url: /deployment_download.html
+        output: web
+      - title: Deployment Models
+        url: /deployment_models.html
+        output: web
+      - title: Node Placement
+        url: /deployment_placement.html
+        output: web
+      - title: Local Deployment
+        url: /deployment_local.html
+        output: web
+      - title: Security
+        url: /deployment_security.html
+        output: web
+
+
+    - title: Documentation
+      output: web
+      folderitems:
+
+      - title: perfSONAR Documentation
+        external_url: https://docs.perfsonar.net
+        output: web
+
+      - title: FAQ
+        external_url: https://docs.perfsonar.net/FAQ
+        output: web
+
+      - title: Release Notes
+        url: /docs_releasenotes.html
+        output: web
+
+
+    - title: Resources
+      output: web
+      folderitems:
+
+      - title: Lookup Service
+        external_url: http://stats.es.net/ServicesDirectory/
+        output: web
+
+      - title: YouTube
+        external_url: https://www.youtube.com/channel/UCjK-P49pAKK9hUrrNbbe0Sg
+        output: web
+
+      - title: GitHub
+        external_url: https://github.com/perfsonar
+        output: web
+
+      - title: Publications and Presentations
+        url: resources_publications.html
+        output: web
+
+      - title: Introduction to Network Metrics
+        url: resources_metrics.html
+        output: web
+
+      - title: Using and Interpreting perfSONAR
+        url: resources_using.html
+        output: web
+
+      - title: ESnet FasterData
+        external_url: http://fasterdata.es.net/performance-testing/perfsonar
+        output: web
+
+      - title: Network Startup Resource Center
+        external_url: https://learn.nsrc.org/perfsonar
+        output: web
+
+
+    - title: About
+      output: web
+      folderitems:
+
+      - title: History
+        url: /about_history.html
+        output: web
+      - title: Latest News
+        url: /news.html
+        output: web
+      - title: News Archive
+        url: /news_archive.html
+        output: web
+      - title: Licenses
+        url: /about_license.html
+        output: web
+      - title: Logo and Usage
+        url: /about_logo.html
+        output: web
+      - title: Privacy Policy
+        url: /about_privacy.html
+        output: web
+      - title: Contact Us
+        url: /about_contact.html
+        output: web
+
+    - title: Development Collaboration
+      output: web
+      folderitems:
+
+      - title: About the Collaboration
+        url: /collab_about.html
+        output: web
+
+      - title: Framework
+        url: /collab_framework.html
+        output: web
+
+      - title: Mission Statement
+        url: /collab_mission.html
+        output: web
+
+      - title: Requirements Gathering
+        url: /collab_requirements.html
+        output: web
+
+      - title: Project Roadmap
+        url: /collab_roadmap.html
+        output: web
