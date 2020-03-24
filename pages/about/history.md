@@ -25,11 +25,59 @@ local:
   # Items in the future relative to the date the site was generated will be excluded.
   #
 
+  - date: 2020-02-27
+    text: perfSONAR 4.2.3 release.
+
+  - date: 2019-10-11
+    text: perfSONAR 4.2.2 release.
+
+  - date: 2019-10-03
+    text: perfSONAR 4.2.1 release.
+
   - date: 2019-08-19
     text: perfSONAR 4.2 release. Disk-to-disk tests and task priorities added. End of BWCTL backward compatibility in pScheduler.
 
+  - date: 2019-07-10
+    text: perfSONAR 4.2 beta release.
+
   - date: 2019-02-25
-    text: 2019 perfSONAR 4.1.6 release.
+    text: perfSONAR 4.1.6 release.
+
+  - date: 2018-12-18
+    text: perfSONAR 4.1.5 release.
+
+  - date: 2018-11-26
+    text: perfSONAR 4.1.4 release.
+
+  - date: 2018-11-26
+    text: perfSONAR 4.1.4 release.
+
+  - date: 2018-10-24
+    text: perfSONAR 4.1.3 release.
+
+  - date: 2018-09-13
+    text: perfSONAR 4.1.2 release.
+
+  - date: 2018-08-27
+    text: perfSONAR 4.1.1 release.
+
+  - date: 2018-08-15
+    text: perfSONAR 4.1 release.  Replaced MeshConfig with pSConfig and the pSConfig Web Administrator (PWA).  Added support for TWAMP, a Docker Container, and pScheduler task rewriting.  Support for BWCTL deprecated.
+
+  - date: 2018-06-29
+    text: perfSONAR 4.1 beta release.
+
+  - date: 2018-05-25
+    text: perfSONAR 4.0.2.5 release.
+
+  - date: 2018-03-12
+    text: perfSONAR 4.0.2.3 and 4.0.2.4 releases.
+
+  - date: 2018-02-06
+    text: perfSONAR 4.0.2.2 release.
+
+  - date: 2017-12-20
+    text: perfSONAR 4.0.2.1 release.
 
   - date: 2017-11-28
     text: perfSONAR 4.0.2 release.
