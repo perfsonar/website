@@ -7,7 +7,7 @@ default: build
 
 vm:
 	vagrant up
-TO_CLEAN += .vagrant
+VAGRANT_TO_CLEAN += .vagrant
 
 
 ssh:
@@ -27,7 +27,13 @@ dev:
 
 
 clean:
-	vagrant destroy -f
+	@command -v vagrant > /dev/null \
+	    && $(MAKE) vagrant-clean \
+	    || echo "No Vagrant; must be in the VM."
 	find . -name "*~" | xargs rm -f
 	rm -rf $(TO_CLEAN)
 
+
+vagrant-clean:
+	vagrant destroy -f
+	rm -rf $(VAGRANT_TO_CLEAN)
