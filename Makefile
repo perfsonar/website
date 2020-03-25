@@ -27,8 +27,7 @@ dev:
 
 
 clean:
+	vagrant destroy -f
 	find . -name "*~" | xargs rm -f
 	rm -rf $(TO_CLEAN)
 
-very-clean: clean
-	vagrant destroy -f
