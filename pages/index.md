@@ -76,7 +76,7 @@ This will show a news notice for anything less than 60 days old.
 
 <p>perfSONAR is the <b>perf</b>ormance <b>S</b>ervice-<b>O</b>riented
 <b>N</b>etwork monitoring <b>AR</b>chitecture, a network measurement
-toolkit designed to provide federated coverage of paths, and help to
+toolkit designed to provide federated coverage of paths and help to
 establish end-to-end usage expectations.  There are thousands of
 perfSONAR instances deployed worldwide, many of which are available
 for open testing of key measures of network performance.  This global
