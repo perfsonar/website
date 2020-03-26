@@ -111,3 +111,12 @@ they were for a released version.)
 The `images/favicon` and favicon data in `_include/head.html` were
 generated with https://realfavicongenerator.net and a tightly-cropped
 version of the logo.
+
+
+### Redirects
+
+The `redirects` directory contains a set of generated pages that use
+HTML tags to redirect pages from the old web site to their
+counterparts in the new one.  After the site is initially fielded,
+there should be no need to make any changes to files in this
+directory.

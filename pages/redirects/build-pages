@@ -1,0 +1,33 @@
+#!/bin/sh -e
+#
+# Build redirect directories and pages
+#
+
+
+
+LIST="$1"
+if ! [ -r "${LIST}" ]
+then
+    echo "Unable to read list '${LIST}'." 1>&2
+    exit 1
+fi
+
+
+sed -e 's/#.*$//; /^\s*$/d' "${LIST}" | (
+    while read LINE
+    do
+	OLD_PATH=$(echo "${LINE}" | awk '{ print $1 }')
+	NEW_PATH=$(echo "${LINE}" | awk '{ print $2 }')
+
+	PAGE_DIR=$(dirname "${OLD_PATH}")
+
+	PAGE_RELATIVE=$(echo "${PAGE_DIR}" | sed -e 's|[^/]\+|..|g')
+
+	mkdir -p "${PAGE_DIR}"
+	sed \
+	    -e "s|__OLD_PAGE__|${OLD_PATH}|g" \
+	    -e "s|__NEW_PAGE__|${PAGE_RELATIVE}/${NEW_PATH}|g" \
+	    template.html > "${OLD_PATH}"
+    done
+)
+
