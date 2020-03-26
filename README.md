@@ -101,9 +101,14 @@ of the existing posts as a template.
 Release notes are in the `_releasenotes` collection.  When adding a
 new release, use an existing file as a template.
 
-When doing a release, make sure to set the `supported` item in all
-no-longer-supported releases to `false`.  (Do this for betas, even if
-they were for a released version.)
+Things to do when releasing a new version:
+
+ * Go through older releases and set the `supported` item to `false`
+   in those that are no longer supported.  (Do this for betas, even if
+   they were for a now-supported version.)
+
+ * Add the release to the `local` section of `pages/about/history.md`,
+   making sure to keep it in descending date order.
 
 
 ### Favicon
