@@ -253,8 +253,6 @@ in the form of development contributions, software testing, feature
 suggestions, and deployment.  The development team would like to thank
 the following organizations for contributions to perfSONAR:
 
-{% include todo.html content="Make sure all of these links are good." %}
-
 {% for contrib in page.local.contrib %}
  * [{{ contrib.name }}]({{ contrib.url }}){% if contrib.nick %} ({{ contrib.nick }}){% endif %}
 {% endfor %}

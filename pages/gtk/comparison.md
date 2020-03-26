@@ -112,8 +112,6 @@ local:
 
 ---
 
-{% include todo.html content="This needs to be gone over for correctness" %}
-
 This page attempts to draw a comparison between perfSONAR and other
 popular performance monitoring and measurement systems.  The summary
 may help to decide if perfSONAR will suit one's needs. Although this

@@ -96,7 +96,6 @@ presentation does not need to be formal. Elements might include:
 
  * Description of planned work
 
-{% include todo.html content="The last bullet above is missing content." %}
 
 Regardless of the collaboration model, prospective contributors are
 encouraged to join weekly project calls and relevant project mailing
