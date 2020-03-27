@@ -95,6 +95,10 @@ To view the website, point a browser on the host at
 Items for the news feed should be added to the `_posts` directory.  Use one
 of the existing posts as a template.
 
+Note that if the date for a news item is in the future, the site must
+be rebuilt on or after the day the it should appear.  The easiest
+thing to do is to push the change on the day it should appear.
+
 
 ### Releases
 
@@ -109,6 +113,11 @@ Things to do when releasing a new version:
 
  * Add the release to the `local` section of `pages/about/history.md`,
    making sure to keep it in descending date order.
+
+
+Note that if the date for a release is in the future, the site must be
+rebuilt on or after the day the it should appear.  The easiest thing
+to do is to push the change on the day it should appear.
 
 
 ### Favicon
