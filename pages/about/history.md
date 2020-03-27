@@ -24,6 +24,8 @@ local:
   #
   # Items in the future relative to the date the site was generated will be excluded.
   #
+  - date: 2020-03-30
+    text: perfSONAR 4.2.4 release.
 
   - date: 2020-02-27
     text: perfSONAR 4.2.3 release.
