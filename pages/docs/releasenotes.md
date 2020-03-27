@@ -20,7 +20,7 @@ Information on how perfSONAR version numbers are assigned may be found
 {% include important.html content="These releases are supported for <b>security patches only</b>.  If installing a new system, the current release is strongly recommended." %}
 
   {% endif %}
- * [{{ release.version }}]({{ release.url | remove: "/" }}) - {{ release.date | date: "%B %e, %Y" }}
+ * [{{ release.version }}]({{ release.url | remove: "/" }}) - {{ release.date | date: "%B %e, %Y" }}{% if forloop.first %} - [Get Started](http://docs.perfsonar.net/install_options.html){% endif %}
 {% endfor %}
 
 
