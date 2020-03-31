@@ -24,6 +24,7 @@ Vagrant.configure("2") do |config|
 
     config.vm.provision "setup", type: "shell", run: "once", inline: <<-SHELL
       yum -y install epel-release
+      yum -y update
     SHELL
 
     #
@@ -31,7 +32,7 @@ Vagrant.configure("2") do |config|
     #
 
     acct = Etc.getpwnam(Etc.getlogin)
-    home_dir = "/home/#{acct.name}"
+    home_dir = acct.dir
 
     config.vm.provision "account", type: "shell", run: "once", inline: <<-SHELL
       set -e
@@ -75,6 +76,8 @@ Vagrant.configure("2") do |config|
     # Jekyll
     #
 
+    vagrantfile_dir = File.dirname(__FILE__)
+
     config.vm.provision "jekyll", type: "shell", run: "once", inline: <<-SHELL
       set -e
 
@@ -91,7 +94,11 @@ Vagrant.configure("2") do |config|
       # Everything else
       yum -y install git
 
+      # Final setup
+      su '#{acct.name}' -c "make -C '#{vagrantfile_dir}' setup"
+
     SHELL
+
 end
 
 

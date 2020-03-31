@@ -32,17 +32,6 @@ you@host$ cd ~/path/to/checked/out/website
 you@host$ make vm
 ```
 
-Prepare the environment on the VM for use (sorry, this couldn't be
-automated as part of the VM build):
-
-```
-you@host$ make ssh
-you@ps-site-dev$ cd ~/path/to/checked/out/website
-you@ps-site-dev$ make setup
-```
-
-Ignore the complaints about running Bundler as root.
-
 
 ### Developing On the VM
 
