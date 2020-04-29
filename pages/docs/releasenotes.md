@@ -32,5 +32,4 @@ Information on how perfSONAR version numbers are assigned may be found
 {% for release in releases %}
  * [{{ release.version }}]({{ release.url | remove: "/" }}) - {{ release.date | date: "%B %e, %Y" }}
 {% endfor %}
-
-
+ * All versions prior to those listed here
