@@ -89,6 +89,19 @@ be rebuilt on or after the day the it should appear.  The easiest
 thing to do is to push the change on the day it should appear.
 
 
+### History
+
+Items for history are in the `_history` collection.  Each item is in a
+file named `YYYY-MM-DD-item.md` and contains a single field called
+`text` that contains the item.
+
+**NOTE:** The dates on history items receive special treatment for
+  approximate or unknown dates:
+
+  * January 1 refers to an entire year (e.g., 2005-01-01 really means 2005).
+  * The first day of a month refers to the entire month (e.g., 2005-07-01 means July, 2005).
+
+
 ### Releases
 
 Release notes are in the `_releasenotes` collection.  When adding a
