@@ -5,14 +5,6 @@ permalink: post-2020-09-28-perfsonar-day.html
 tags: [webinar]
 ---
 
-**IMPORTANT NOTE:** This event is **free of charge for everyone**.  If
-  you attempt to
-  [register](https://service5.internet2.edu/reg/events/perfSONAR/registrations)
-  and do not have credentials to register free, please [email
-  us](mailto:perfsonar-day@internet2.edu?subject=perfSONAR%20Day) and
-  we will send you a code for complimentary registration.
-
-
 Please plan to join us for [TechEXtra: perfSONAR
 Day](https://www2.internet2.edu/l/66332/2020-09-28/c7d6hn) on November
 2 from 10:00 a.m. - 3:00 p.m. EST for an enlivening day of discussion
