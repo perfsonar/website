@@ -73,6 +73,14 @@ entries:
       output: web
       folderitems:
 
+      - title: Announcements Mailing List
+        external_url: https://lists.internet2.edu/sympa/info/perfsonar-announce
+        output: web
+
+      - title: User Mailing List
+        external_url: https://lists.internet2.edu/sympa/info/perfsonar-user
+        output: web
+
       - title: Lookup Service
         external_url: http://stats.es.net/ServicesDirectory/
         output: web
