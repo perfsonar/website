@@ -1,4 +1,5 @@
 <!-- Navigation -->
+{% include baserel.html %}
 <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container topnavlinks">
         <div class="navbar-header">
@@ -8,8 +9,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle">
-		<img src="images/logos/perfsonar/perfsonar-logo-white-full.svg" height="24vh" alt="{{site.topnav_title}} Logo" />
+            <a class="fa fa-home fa-lg navbar-brand" href="{{ baserel }}/index.html">&nbsp;<span class="projectTitle">
+		<img src="{{ baserel }}/images/logos/perfsonar/perfsonar-logo-white-full.svg" height="24vh" alt="{{site.topnav_title}} Logo" />
 	    </span></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
