@@ -139,6 +139,6 @@ description: "This is the web site for perfSONAR, a widely-deployed test and mea
 
 # needed for sitemap.xml file only
 # url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
+baseurl: /
 
 # github: [metadata]
