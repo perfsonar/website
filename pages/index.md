@@ -37,7 +37,7 @@ is posted.
 -------------------------------------------------------------------------------
 				 NEWS
 
-This will show a news notice for anything less than 60 days old.
+This will show a news notice for anything less than 30 days old.
 -------------------------------------------------------------------------------
 {%- endcomment -%}
 {% capture epoch_now %}{{ "now" | date: '%s' }}{% endcapture %}
@@ -50,7 +50,7 @@ This will show a news notice for anything less than 60 days old.
 {% else %}
   {% assign news_message = "News" %}
 {% endif %}
-{% if days_since < 60 %}
+{% if days_since <= 30 %}
   {% assign post_url = site.posts[0].url | remove: "/" %}
   <p align="center">{{ news_message }}: <b><a href="{{ post_url }}">{{ site.posts[0].title }}</a></b></p>
 {% endif %}
