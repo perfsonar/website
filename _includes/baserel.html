@@ -1,0 +1,15 @@
+<!--
+Base of the site, relative to this page.
+
+Based on an idea at https://ricostacruz.com/til/relative-paths-in-jekyll.
+-->
+{%- assign baserel = "" | split: "," -%}
+{%- assign levels = page.url | split: '/' | size | minus: 2 -%}
+{%- if levels > 0 -%}
+{%-   assign up = ".." | split: "," -%}
+{%-   for counter in (1..levels) -%}
+{%-     assign baserel = baserel | concat: up  -%}
+{%-   endfor -%}
+{%- else -%}
+{%-   assign baserel = '.' -%}
+{%- endif -%}
