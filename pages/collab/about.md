@@ -12,34 +12,46 @@ local:
   partner:
 
     - name: The Energy Sciences Network
+      desc: U.S. Department of Energy Science Network
       url: https://www.es.net
       logo: images/logos/esnet.png
       scale: 0.75
-      year: Founder
+      year: Founding Partner
 
     - name: G&Eacute;ANT
       url: https://www.geant.net
+      desc: Pan-European Research and Education Network
       logo: images/logos/geant.svg
-      scale: 1.0
-      year: Founder
+      scale: 0.8
+      year: Founding Partner
 
     - name: Indiana University
+      desc: Public Research University
       url: https://www.iu.edu
       logo: images/logos/indiana.svg
       scale: 1.0
-      year: Founder
+      year: Founding Partner
 
     - name: Internet2
       url: https://www.internet2.edu
+      desc: U.S. National Research and Education Network
       logo: images/logos/internet2.svg
       scale: 1.0
-      year: Founder
+      year: Founding Partner
 
     - name: The University of Michigan
+      desc: Public Research University
       url: https://www.umich.edu
       logo: images/logos/umich.svg
       scale: 1.0
-      year: Joined 2016
+      year: Joined the partnership in 2016
+
+    - name: Rede Nacional de Ensino e Pesquisa
+      url: https://www.rnp.br/en
+      desc: Brazilian National Research and Education Network
+      logo: images/logos/rnp.svg
+      scale: 1.0
+      year: Joined the partnership in 2021
 
   contrib:
 
@@ -143,9 +155,6 @@ local:
       nick: PSNC
       url: http://www.man.poznan.pl/online/en
 
-    - name: Rede Nacional de Ensino e Pesquisa
-      url: https://www.rnp.br/en
-
     - name: Research and Education Data Depot Network
       nick: REDDnet
       url: https://www.reddnet.org/mwiki
@@ -214,24 +223,22 @@ through a collaboration of numerous organizations.  In 2014, a
 development partnership was established to further the development of
 perfSONAR.  The participants in this partnership are:
 
-{% assign logo_height = 48.0 %}
-{% assign partner_length = page.local.partner | size %}
-{% assign partner_percent = 1.0 | divided_by: partner_length | times: 100.0 %}
+{% assign logo_height = 32.0 %}
 
-<table align="center" width="100%">
-  <tr>
+<table align="center">
+
 {% for partner in page.local.partner %}
-    <td width="{{ partner_percent }}%" valign="middle" style="align:center; vertical-align:middle;">
-      <center><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.logo }}" alt="{{ partner.name }}" style="height: {{ logo_height | times: partner.scale }}pt;" /></a></center>
+  <tr>
+    <td align="center" valign="middle">
+      <a href="{{ partner.url }}" target="_blank"><img src="{{ partner.logo }}" alt="{{ partner.name }}" style="height: {{ logo_height | times: partner.scale }}pt;" /></a>
     </td>
-{% endfor %}
+    <td align="center" valign="middle">
+      <a href="{{ partner.url }}">{{ partner.name }}</a><br/>
+      <i>{{ partner.desc }}</i><br/><br/>
+      {{ partner.year }}
+    </td>
   </tr>
-
-  <tr>
-{% for partner in page.local.partner %}
-    <td width="{{ partner_percent }}%"><center>{{ partner.year }}</center></td>
 {% endfor %}
-  </tr>
 </table>
 
 Each development partner contributes the following:
@@ -251,7 +258,7 @@ partner, please contact us at
 The success of perfSONAR depends on contributions from the community
 in the form of development contributions, software testing, feature
 suggestions, and deployment.  The development team would like to thank
-the following organizations for contributions to perfSONAR:
+the following organizations for their contributions to perfSONAR:
 
 {% for contrib in page.local.contrib %}
  * [{{ contrib.name }}]({{ contrib.url }}){% if contrib.nick %} ({{ contrib.nick }}){% endif %}
