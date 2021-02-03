@@ -32,6 +32,11 @@ you@host$ cd ~/path/to/checked/out/website
 you@host$ make vm
 ```
 
+Once the VM is built, log into it:
+```
+you@host$ make ssh
+```
+
 
 ### Developing On the VM
 
