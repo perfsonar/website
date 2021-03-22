@@ -71,14 +71,14 @@ local:
      name: RIPE Atlas
      url:  https://atlas.ripe.net
      description: "Active measurement network from the RIPE NCC. It consists of measurement probes that run measurements in the RIPE Atlas system and report results to the central data collection components."
-     type: "RTT to the first and second hops, ping to predetermined destinations, traceroute to predetermined destinations, DNS queries to root DNS servers, SSL queries to predetermined destinations."
+     type: "Built-in: RTT to the first and second hops, ping to predetermined destinations, traceroute to predetermined destinations, DNS queries to root DNS servers, SSL queries to predetermined destinations. User-defined: ping, traceroute, DNS, TLS and NTP query to any destination."
      userdef: "Yes; Limited by a system of credits based on participation"
      demand: "Yes; Limited by a system of credits based on participation"
      control: "No"
-     target: "Only to pre-defined RIPE hosts or other Atlas probes"
-     distribution: "Hardware"
+     target: "Any non-local destination"
+     distribution: "Hardware device or software package"
      storagedist: "Central"
-     storagearch: "Data stored in service provider infrastructure"
+     storagearch: "Data stored in service provider infrastructure + Google BigQuery"
      archiveaccess: "Central web interface"
   
    - tag: sam
