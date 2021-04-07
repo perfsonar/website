@@ -21,7 +21,7 @@ collection and require no additional action.
 
 {% include image.html file="about/history-2001-2015.jpg" %}
 
-{% include image.html file="about/history-2016-2019.jpg" %}
+{% include image.html file="about/history-2016-present.jpg" %}
 
 
 
