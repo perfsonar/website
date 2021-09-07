@@ -22,7 +22,7 @@ you.
 
 ## Additional Information
 
-Release notes can be found [here](releasenotes_index.html).
+Release notes can be found [here](docs_releasenotes.html).
 
 A comprehensive installation and user guide is available for perfSONAR
 at [https://docs.perfsonar.net](https://docs.perfsonar.net/).
