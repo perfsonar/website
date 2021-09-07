@@ -81,6 +81,27 @@ Configuration file: /home/you/path/to/checked/out/website/_config.yml
 To view the website, point a browser on the host at
 `file:///home/you/path/to/checked/out/website/_site/index.html`.
 
+## Docker image
+
+Alternatively to the VM, you can use Docker to build and launch a container running the website.  This can be done with the following commands:
+
+```
+docker compose build
+docker compose up
+```
+
+Once all the Gems are installed and Jekyll started, you should have the website running locally at http://0.0.0.0:4000/ or http://localhost:4000/  Any change in to the website files contained in the repository will be reflected on this live website.
+
+### Updating the Gemfile.lock
+
+In case the installation complains about failed dependencies or vulnerabilities in the Gems insalled and Jekyll doesn't start, you can run a shell in the running container to resolve that:
+
+```
+docker compose run --entrypoint=bash server
+```
+
+After that you can run `bundle update github-pages` or whatever other command Ruby Gems tells you to run and then you should end up with an updated Gemfile.lock with correct dependencies and running `docker compose up` again should bring the website alive.
+
 
 ## Other Notes
 
@@ -141,3 +162,4 @@ HTML tags to redirect pages from the old web site to their
 counterparts in the new one.  After the site is initially fielded,
 there should be no need to make any changes to files in this
 directory.
+
