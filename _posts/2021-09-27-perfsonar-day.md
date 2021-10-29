@@ -8,8 +8,8 @@ tags: [webinar]
 Please plan to join us for the second annual [Internet2 TechEXtra:
 perfSONAR
 Day](https://internet2.edu/techextra21/techextra21-schedule/perfsonar-day-2021)
-on Wednesday, November 3 from 10:00 a.m. to 3:00 p.m. EDT (16:00 –
-21:05 CEST).
+on Wednesday, November 3 from 10:00 a.m. to 3:00 p.m. EDT (15:00 to
+20:00 CET).
 
 The first half of this year’s program will be a look at some of the
 project’s current goings-on and what’s in the pipeline for the next
