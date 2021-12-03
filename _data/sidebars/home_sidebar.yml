@@ -127,6 +127,9 @@ entries:
       - title: News Archive
         url: /news_archive.html
         output: web
+      - title: Use Cases
+        url: /use_cases.html
+        output: web
       - title: Licenses
         url: /about_license.html
         output: web
