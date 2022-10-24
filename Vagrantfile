@@ -32,6 +32,7 @@ Vagrant.configure("2") do |config|
     #
 
     acct = Etc.getpwnam(Etc.getlogin)
+    group = Etc.getgrgid(acct.gid)
     home_dir = acct.dir
 
     config.vm.provision "account", type: "shell", run: "once", inline: <<-SHELL
@@ -41,6 +42,11 @@ Vagrant.configure("2") do |config|
 
       yum -y install '#{acct.shell}'
 
+      if ! getent group "#{group.name}"
+      then
+          groupadd --gid "#{group.gid}" "#{group.name}"
+      fi
+
       id '#{acct.name}' >/dev/null 2>&1 \
         || useradd \
                 --no-create-home \
@@ -48,7 +54,7 @@ Vagrant.configure("2") do |config|
                 --home-dir '#{home_dir}' \
                 --shell '#{acct.shell}' \
                 --uid '#{acct.uid}' \
-                --gid '#{acct.gid}' \
+                --gid '#{group.gid}' \
                 '#{acct.name}'
 
         # Local Storage
