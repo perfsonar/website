@@ -49,7 +49,7 @@ local:
     - name: Rede Nacional de Ensino e Pesquisa
       url: https://www.rnp.br/en
       desc: Brazilian National Research and Education Network
-      logo: images/logos/rnp.svg
+      logo: images/logos/rnp.png
       scale: 1.0
       year: Joined the partnership in 2021
 
