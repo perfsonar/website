@@ -81,8 +81,8 @@ entries:
         external_url: https://lists.internet2.edu/sympa/info/perfsonar-user
         output: web
 
-      - title: Lookup Service
-        external_url: http://stats.es.net/ServicesDirectory/
+      - title: Lookup Service Dashboard
+        external_url: http://stats.perfsonar.net
         output: web
 
       - title: YouTube
