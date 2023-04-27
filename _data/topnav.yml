@@ -8,6 +8,8 @@ topnav:
       url: /news.html
     - title: Releases
       url: /docs_releasenotes.html
+    - title: Documentation
+      external_url: https://docs.perfsonar.net
 
 # #Topnav dropdowns
 # topnav_dropdowns:
