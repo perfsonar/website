@@ -17,3 +17,4 @@ your feedback [on the perfSONAR user list](https://lists.internet2.edu/sympa/inf
 
 Go ahead and [start exploring at https://stats.perfsonar.net](https://stats.perfsonar.net)!
 
+And read more about it on the [APNIC blog](https://blog.apnic.net/2023/04/24/around-the-world-with-perfsonar-lookup-service/).
