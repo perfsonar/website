@@ -10,26 +10,16 @@ folder: news
 Information on how perfSONAR version numbers are assigned may be found
 [here](https://github.com/perfsonar/project/wiki/Versioning).
 
-{% assign releases = site.releasenotes | where: "supported", true | reverse %}
+{% assign releases = site.releasenotes | reverse %}
 {% for release in releases %}
   {% if forloop.first %}
 ## Current Release
   {% elsif forloop.index == 2 %}
 ## Past Releases
 
-{% include important.html content="These releases are supported for <b>security patches only</b>.  If installing a new system, the current release is strongly recommended." %}
+{% include warning.html content="These releases are <b>no longer supported</b>.  New systems should be built with the current release and upgrading existing ones is strongly-recommended.  Patches to fix security problems in these releases may be released at the development team's discretion." %}
 
   {% endif %}
  * [{{ release.version }}]({{ release.url | remove: "/" }}) - {{ release.date | date: "%B %e, %Y" }}{% if forloop.first %} - [Get Started](http://docs.perfsonar.net/install_options.html){% endif %}
-{% endfor %}
-
-
-## End-of-Life Releases
-
-{% include warning.html content="These releases are <b>no longer supported</b>.  If you have a system running one of these versions, please upgrade it to the current release." %}
-
-{% assign releases = site.releasenotes | where: "supported", false | reverse %}
-{% for release in releases %}
- * [{{ release.version }}]({{ release.url | remove: "/" }}) - {{ release.date | date: "%B %e, %Y" }}
 {% endfor %}
  * All versions prior to those listed here
