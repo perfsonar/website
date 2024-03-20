@@ -86,7 +86,7 @@ entries:
         output: web
 
       - title: YouTube
-        external_url: https://www.youtube.com/channel/UCjK-P49pAKK9hUrrNbbe0Sg
+        external_url: https://www.youtube.com/perfSONARProject
         output: web
 
       - title: GitHub

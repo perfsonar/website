@@ -85,11 +85,11 @@ sciences.
 
 
 perfSONAR tools are deployed on over 2,000 [registered
-hosts](http://stats.es.net/ServicesDirectory) in over 300 top-level
+hosts](https://stats.perfsonar.net/) in over 300 top-level
 domains and more than 1,000 organizations around the world.  Based on
 discussions with the user base, it is believed that there are at least
 that many private, unregistered perfSONAR installations.
 
 {% include image.html file="gtk/whouses/ps-worldwide.png"
    alt="perfSONAR worldwide installations"
-   caption="Image Updated February, 2020" %}
+   caption="Image Updated March, 2024" %}
