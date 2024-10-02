@@ -19,9 +19,9 @@ collection and require no additional action.
 
 ## Timeline
 
-{% include image.html file="about/history-2001-2015.jpg" %}
+{% include image.html file="about/history-2001-2015.jpg" max-width="1100" %}
 
-{% include image.html file="about/history-2016-present.jpg" %}
+{% include image.html file="about/history-2016-present.jpg" max-width="1100" %}
 
 
 
