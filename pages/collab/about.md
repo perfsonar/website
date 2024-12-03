@@ -72,6 +72,10 @@ local:
       nick: XSEDE
       url: https://www.xsede.org
 
+    - name: Engagement and Performance Operations Center
+      nick: EPOC
+      url: https://epoc.global/
+
     - name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       nick: FAU
       url: https://www.fau.eu
@@ -167,6 +171,10 @@ local:
 
     - name: Texas A&amp;M University
       url: https://www.tamu.edu
+
+    - name: Texas Advanced Computing Center
+      nick: TACC
+      url: https://tacc.utexas.edu/
 
     - name: U.S. Collaboration for the ATLAS Experiment at the LHC
       nick: US ATLAS
