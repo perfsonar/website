@@ -68,13 +68,13 @@ local:
     - name: eduPERT - Performance Enhancement Response Team
       url: https://www.geant.org/Services/Connectivity_and_network/Pages/eduPERT.aspx
 
-    - name: Extreme Science and Engineering Discovery Environment
-      nick: XSEDE
-      url: https://www.xsede.org
-
     - name: Engagement and Performance Operations Center
       nick: EPOC
       url: https://epoc.global/
+
+    - name: Extreme Science and Engineering Discovery Environment
+      nick: XSEDE
+      url: https://www.xsede.org
 
     - name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       nick: FAU
