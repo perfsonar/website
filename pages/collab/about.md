@@ -14,8 +14,8 @@ local:
     - name: The Energy Sciences Network
       desc: U.S. Department of Energy Science Network
       url: https://www.es.net
-      logo: images/logos/esnet.png
-      scale: 0.75
+      logo: images/logos/esnet.svg
+      scale: 1.0
       year: Founding Partner
 
     - name: G&Eacute;ANT
