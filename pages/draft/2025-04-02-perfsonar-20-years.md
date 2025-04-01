@@ -1,7 +1,8 @@
 ---
 title: "Celebrating 20 Years of perfSONAR"
 categories: news
-permalink: 2025-04-02-perfsonar-20-years.html
+# permalink: 2025-04-02-perfsonar-20-years.html
+permalink: ps20.html
 tags: [news]
 ---
 
