@@ -39,7 +39,16 @@ demands of an increasingly interconnected R&E community.
 
 ## Global Networking Requires Global Partnerships
 
-# TODO: EMBED VIDEO: https://youtu.be/EO2NiNaASYo
+<p>
+  <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/EO2NiNaASYo?si=51CMWOJ2B7iWWs8Y"
+   title="YouTube video player"
+   frameborder="0"
+   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+   referrerpolicy="strict-origin-when-cross-origin"
+   allowfullscreen>
+  </iframe>
+</p>
 
 Global science collaborations depend on researchers being able to
 share data across multiple high-performance networks. Hundreds of such
