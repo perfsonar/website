@@ -39,7 +39,7 @@ demands of an increasingly interconnected R&E community.
 
 ## Global Networking Requires Global Partnerships
 
-<p>
+<p align="center">
   <iframe width="560" height="315"
    src="https://www.youtube.com/embed/EO2NiNaASYo?si=51CMWOJ2B7iWWs8Y"
    title="YouTube video player"
@@ -47,7 +47,8 @@ demands of an increasingly interconnected R&E community.
    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
    referrerpolicy="strict-origin-when-cross-origin"
    allowfullscreen>
-  </iframe>
+  </iframe><br/>
+  <i>A short video on how perfSONAR is used in global research</i>
 </p>
 
 Global science collaborations depend on researchers being able to
@@ -142,7 +143,7 @@ unregistered installations.
   <i>A 2024 depiction of the complexity of
   the network architecture connecting multiple R&E networks around the
   world to support the Large Hadron Collider Open Network
-  Environment (LHCONE).</i>
+  Environment (LHCONE)</i>
 </p>
 
 One of perfSONAR’s scientific-collaboration success stories is its
