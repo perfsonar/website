@@ -61,12 +61,16 @@ This will show a news notice for anything less than 30 days old.
 				 LOGO
 -------------------------------------------------------------------------------
 {%- endcomment -%}
-<p align="center"><img src="images/logos/perfsonar/perfsonar-logo-black-full.svg" /></p>
 
-
-<!--
-{% include important.html content="This is a development test for a potential replacement for the perfSONAR web site.  It is not the official site, so please take anything you see here with a grain of salt." %}
--->
+{% assign this_year = 'now' | date: "%Y" %}
+<p align="center">
+{% if this_year == 2025 %}
+  <img src="images/logos/perfsonar-20/perfsonar-logo-black-full.svg" /></p>
+{% else %}
+  <img src="images/logos/perfsonar/perfsonar-logo-black-full.svg" />
+{% endif %}
+</p>
+  
 
 {%- comment -%}
 -------------------------------------------------------------------------------
