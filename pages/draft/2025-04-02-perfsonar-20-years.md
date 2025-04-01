@@ -222,7 +222,7 @@ the United States and Europe. Regularly scheduled test routines verify
 network performance on ESnet’s core network, across transatlantic
 connections, to DOE labs and our partner networks around the globe.
 
-## GÉANT
+### GÉANT
 
 [GÉANT](https://geant.org/) is the collaboration of European National
 Research and Education Networks (NRENs). Together we deliver an
@@ -233,7 +233,7 @@ growing range of services. These allow researchers to collaborate,
 working together wherever they are located. Together with European
 NRENs, GÉANT connects 50 million users in over 10,000 institutions.
 
-## Indiana University
+### Indiana University
 
 For more than 25 years, GlobalNOC at [Indiana
 University](https://www.iu.edu/) has grown alongside the R&E
@@ -259,7 +259,7 @@ research and education network that was built to deliver advanced,
 customized services that are accessed and secured by the
 community-developed trust and identity framework.
 
-## University of Michigan
+### University of Michigan
 
 The [University of Michigan](https://www.umich.edu/)'s Information and
 Technology Services (ITS) Infrastructure team designs, implements,
@@ -274,7 +274,7 @@ comprehensive perfSONAR deployment across the Core Network and BIN, as
 well as specific meshes for schools, colleges, and the campuses of
 UM-Ann Arbor, UM-Dearborn, and UM-Flint.
 
-## Rede Nacional de Ensino e Pesquisa (RNP)
+### Rede Nacional de Ensino e Pesquisa (RNP)
 
 The [National Education and Research Network
 (RNP)](https://www.rnp.br/en) connects universities and
