@@ -64,7 +64,7 @@ This will show a news notice for anything less than 30 days old.
 
 {% assign this_year = 'now' | date: "%Y" %}
 <p align="center">
-{% if this_year == 2025 %}
+{% if this_year == "2025" %}
   <img src="images/logos/perfsonar-20/perfsonar-logo-black-full.svg" /></p>
 {% else %}
   <img src="images/logos/perfsonar/perfsonar-logo-black-full.svg" />
