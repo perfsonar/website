@@ -3,10 +3,11 @@ title: "Celebrating 20 Years of perfSONAR"
 categories: news
 # permalink: 2025-04-02-perfsonar-20-years.html
 permalink: ps20.html
+toc: false
 tags: [news]
 ---
 
-<p align="center"><img src="images/_posts/2025-04-02-perfsonar-20-years/perfsonar20.svg"/></p>
+<p align="center"><img src="images/posts/2025-04-02-perfsonar-20-years/perfsonar20.svg"/></p>
 
 **perfSONAR Celebrates 20 Years of Simplifying Global Research
   Collaboration Through Standardized Network Measurement and Testing**
@@ -82,7 +83,7 @@ and computing resources.
 ## Measuring on all Seven Continents
 
 <p align="center">
-    <img src="images/_posts/2025-04-02-perfsonar-20-years/map.png"/><br/>
+    <img src="images/posts/2025-04-02-perfsonar-20-years/map.png"/><br/>
     <i>A February 2025 map of registered perfSONAR installations</i>
 </p>
 
@@ -128,7 +129,7 @@ unregistered installations.
 ## The Large Hadron Collider and the Future of perfSONAR
 
 <p align="center">
-  <img src="images/_posts/2025-04-02-perfsonar-20-years/lhc.png"/><br/>
+  <img src="images/posts/2025-04-02-perfsonar-20-years/lhc.png"/><br/>
   <i>A 2024 depiction of the complexity of
   the network architecture connecting multiple R&E networks around the
   world to support the Large Hadron Collider Open Network
