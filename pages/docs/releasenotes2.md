@@ -15,7 +15,7 @@ Information on how perfSONAR version numbers are assigned may be found
 ## Current Release
 
 {% for release in releases %}
-  {% if release.supported and not release.beta %}
+  {% if release.supported and release.beta == false %}
    * [{{ release.version }}]({{ release.url | remove: "/" }}) - {{ release.date | date: "%B %e, %Y" }} - [Get Started](https://docs.perfsonar.net/install_options.html)
   {% endif %}
 {% endfor %}
@@ -38,7 +38,7 @@ tarted](https://docs.perfsonar.net/install_rcs.html)
 {% include warning.html content="These releases are <b>no longer supported</b>.  New systems should be built with the current release and upgrading existing ones is strongly-recommended.  Patches to fix security problems in these releases may be released at the development team's discretion." %}
 
 {% for release in releases %}
-  {% if not release.supported %}
+  {% if release.supported == false %}
  * [{{ release.version }}]({{ release.url | remove: "/" }}) - {{ release.date | date: "%B %e, %Y" }}
   {% endif %}
 {% endfor %}
