@@ -37,3 +37,8 @@ clean:
 vagrant-clean:
 	vagrant destroy -f
 	rm -rf $(VAGRANT_TO_CLEAN)
+
+
+
+supported:
+	@grep -Elr -e 'supported:\s*true'  _releasenotes
