@@ -2,7 +2,7 @@
 title: "Lookup Service Dashboards upgrade"
 categories: news
 permalink: post-ls-dashboards-grafana-10°
-tags: [news ls]
+tags: [news, ls]
 ---
 
 The perfSONAR public dashboard (aka Lookup Service dashboard) has just been upgraded.

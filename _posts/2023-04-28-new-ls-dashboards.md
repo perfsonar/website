@@ -2,7 +2,7 @@
 title: "New Lookup Service Dashboards"
 categories: news
 permalink: post-new-ls-dashboards
-tags: [news ls]
+tags: [news, ls]
 ---
 
 The new perfSONAR public dashboard is a powerful tool, built on top of the

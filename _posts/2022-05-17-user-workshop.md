@@ -2,7 +2,7 @@
 title: "Join Us for 3rd European perfSONAR Users Workshop"
 categories: webinar
 permalink: post-2022-05-17-user-workshop.html
-tags: [webinar]
+tags: [training, webinar]
 ---
 
 Please plan to join us for the 3rd European [perfSONAR Users

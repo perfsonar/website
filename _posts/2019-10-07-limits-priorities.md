@@ -2,7 +2,7 @@
 title: "\"Know Your Limits: Priorities\" Webinar available on YouTube channel"
 categories: webinar
 permalink: post-2019-10-07-limits-priorities.html
-tags: [webinar pscheduler]
+tags: [webinar, pscheduler]
 ---
 
 The Project team is pleased to announce the release of this the
