@@ -1,9 +1,10 @@
 ---
-title: "Trainings and workshops"
+title: Trainings and workshops
 tagName: training
 search: exclude
 permalink: tag_training.html
-sidebar: mydoc_sidebar
+sidebar: home_sidebar
+toc: false
 folder: tags
 ---
 {% include taglogic.html %}
