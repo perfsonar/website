@@ -2,7 +2,7 @@
 title: "Call for proposals for the 4th European perfSONAR Users Workshop"
 categories: workshop
 permalink: post-2024-03-23-user-workshop-call.html
-tags: [training, callforproposals]
+tags: [training, proposals]
 ---
 
 The Fourth European perfSONAR User Workshop will bring together perfSONAR
