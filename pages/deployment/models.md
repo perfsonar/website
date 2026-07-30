@@ -76,11 +76,5 @@ either a central location, or on each of the members.
 
 {% include image.html file="deploy/models/mesh.png" alt="perfSONAR in a mesh" %}
 
-Software such as
-[MaDDash](https://docs.perfsonar.net/maddash_intro.html) can be used
-to visualize the collective results:
-
-{% include image.html file="deploy/models/maddash.png" alt="perfSONAR mesh with MaDDash" %}
-
-This instance can be created using the perfSONAR toolkit ISO or bundled
-RPM install.
+Software such as the perfSONAR archive and Grafana bundles bundles can
+be used to visualize the results.
